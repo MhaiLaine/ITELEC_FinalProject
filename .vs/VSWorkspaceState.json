@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FinalProject",
+    "\\FinalProject\\FinalProject",
+    "\\FinalProject\\FinalProject\\App_Start",
+    "\\FinalProject\\FinalProject\\Controllers",
+    "\\FinalProject\\FinalProject\\Scripts",
+    "\\FinalProject\\FinalProject\\Scripts\\AngularScripts",
+    "\\FinalProject\\FinalProject\\Views",
+    "\\FinalProject\\FinalProject\\Views\\Home",
+    "\\FinalProject\\FinalProject\\Views\\Shared"
+  ],
+  "SelectedNode": "\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
+  "PreviewInSolutionExplorer": false
+}
