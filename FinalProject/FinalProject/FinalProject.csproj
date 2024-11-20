@@ -127,6 +127,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\book.png" />
+    <Content Include="Content\assets\cardbg.png" />
+    <Content Include="Content\assets\flashcard.png" />
+    <Content Include="Content\assets\login.gif" />
+    <Content Include="Content\assets\main_menu.gif" />
+    <Content Include="Content\assets\registration.gif" />
+    <Content Include="Content\assets\view1.gif" />
+    <Content Include="Content\assets\view2.gif" />
+    <Content Include="Content\assets\welcome instruc.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -968,6 +977,11 @@
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Shared\_RegistrationLayout.cshtml" />
     <Content Include="Views\Home\MainMenu.cshtml" />
+    <Content Include="Views\Shared\_MainMenuLayout.cshtml" />
+    <Content Include="Views\Shared\_LoginLayout.cshtml" />
+    <Content Include="Views\Shared\_Welcome.cshtml" />
+    <Content Include="Views\Shared\_Dashboard.cshtml" />
+    <Content Include="Views\Shared\_StudyFlashcards.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
