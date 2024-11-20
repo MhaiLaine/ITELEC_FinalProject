@@ -2,15 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\FinalProject",
-    "\\FinalProject\\FinalProject",
-    "\\FinalProject\\FinalProject\\Content",
-    "\\FinalProject\\FinalProject\\Content\\assets",
-    "\\FinalProject\\FinalProject\\Scripts",
-    "\\FinalProject\\FinalProject\\Scripts\\AngularScripts",
-    "\\FinalProject\\FinalProject\\Views",
-    "\\FinalProject\\FinalProject\\Views\\Home",
-    "\\FinalProject\\FinalProject\\Views\\Shared"
+    "\\FinalProject\\Views",
+    "\\FinalProject\\Views\\Home",
+    "\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject\\FinalProject\\Content\\assets",
+  "SelectedNode": "\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }
