@@ -3,14 +3,14 @@
     "",
     "\\FinalProject",
     "\\FinalProject\\FinalProject",
-    "\\FinalProject\\FinalProject\\App_Start",
-    "\\FinalProject\\FinalProject\\Controllers",
+    "\\FinalProject\\FinalProject\\Content",
+    "\\FinalProject\\FinalProject\\Content\\assets",
     "\\FinalProject\\FinalProject\\Scripts",
     "\\FinalProject\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\FinalProject\\Views",
     "\\FinalProject\\FinalProject\\Views\\Home",
     "\\FinalProject\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
+  "SelectedNode": "\\FinalProject\\FinalProject\\Content\\assets",
   "PreviewInSolutionExplorer": false
 }
