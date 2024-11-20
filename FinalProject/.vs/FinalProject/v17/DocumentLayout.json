@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\finalproject\\views\\shared\\_studyflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_studyflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\finalproject\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\finalproject\\views\\shared\\_mainmenulayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\views\\shared\\_mainmenulayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_mainmenulayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -23,11 +27,7 @@
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_registrationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,24 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_StudyFlashcards.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-19T21:46:37.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Dashboard.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard.cshtml",
@@ -87,12 +87,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T21:44:25.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T21:44:25.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Welcome.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_Welcome.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Welcome.cshtml",
@@ -100,12 +99,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_Welcome.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T21:44:04.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T21:44:04.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_MainMenuLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T21:42:35.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T21:42:35.191Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:33:56.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:33:56.072Z"
             },
             {
               "$type": "Document",
@@ -167,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_RegistrationLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
@@ -175,18 +171,17 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T17:26:06.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:26:06.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainMenu.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-18T17:24:03.722Z",
               "EditorCaption": ""
