@@ -988,6 +988,8 @@
     <Content Include="Views\Shared\_Welcome.cshtml" />
     <Content Include="Views\Shared\_Dashboard.cshtml" />
     <Content Include="Views\Shared\_StudyFlashcards.cshtml" />
+    <Content Include="Views\Home\RegistrationPage.cshtml" />
+    <Content Include="Views\Home\LogInPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

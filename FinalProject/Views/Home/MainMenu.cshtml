@@ -1,14 +1,33 @@
-﻿    @{
-        Layout = "~/Views/Shared/_MainMenuLayout.cshtml";
-    }
+﻿@{
+    Layout = "~/Views/Shared/_MainMenuLayout.cshtml";
+}
 
-<div class="row center" style="width: 100%; height: 7em;">
-    <div class="row">
-        <div class="col s12 m12 l12">
-
- 
-
-
-        </div>
+<div ng-controller="FinalProjectController" class="row center" style="width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: space-between; position: relative;">
+    
+    
+    <!-- Logo / Title -->
+    <div class="title-image">
+        <img src="~/Content/assets/for_mainmenu.png" style="position: absolute; transform: translateX(-48%); z-index: 1; max-width: 95em; height: auto;">    
     </div>
+
+        <!-- Anchor to Bottom -->
+        <div class="bottom-container" style="margin-top: auto; z-index: 10; position: relative;">
+            <!-- Registration -->
+            <div class="col s12 m12 l12">
+                <a class="waves-effect waves-light btn-flat mainButton"
+                   style="pointer-events: auto; z-index: 10;"
+                   ng-click="redirectToRegistration()">Register</a>
+            </div>
+
+            <!-- Login -->
+            <div class="col s12 m12 l12" style="margin-top: 8px; margin-bottom: 17em;">
+                <a class="waves-effect waves-light  btn-flat mainButton"
+                   style="pointer-events: auto; z-index: 10;"
+                   ng-click="redirectToLogIn()">Log In</a>
+            </div>
+        </div>
+
+
+
+
 </div>
