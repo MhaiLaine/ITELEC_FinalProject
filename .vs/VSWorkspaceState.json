@@ -3,14 +3,13 @@
     "",
     "\\FinalProject",
     "\\FinalProject\\App_Start",
+    "\\FinalProject\\Controllers",
+    "\\FinalProject\\Scripts",
+    "\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-=======
-  "SelectedNode": "\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
->>>>>>> Stashed changes
+  "SelectedNode": "\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
   "PreviewInSolutionExplorer": false
 }

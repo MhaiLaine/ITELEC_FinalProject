@@ -129,18 +129,32 @@
   <ItemGroup>
     <Content Include="Content\assets\book.png" />
     <Content Include="Content\assets\cardbg.png" />
+    <Content Include="Content\assets\cardbg1.png" />
     <Content Include="Content\assets\CardLogo.png" />
+    <Content Include="Content\assets\deck1.png" />
+    <Content Include="Content\assets\deck2.png" />
+    <Content Include="Content\assets\deck3.png" />
+    <Content Include="Content\assets\deck4.png" />
+    <Content Include="Content\assets\deckbg.png" />
     <Content Include="Content\assets\flashcard.png" />
     <Content Include="Content\assets\for_mainmenu.png" />
     <Content Include="Content\assets\login.gif" />
+    <Content Include="Content\assets\login2.gif" />
+    <Content Include="Content\assets\login3.gif" />
+    <Content Include="Content\assets\logotitle_transparent.png" />
     <Content Include="Content\assets\logo_with_title.png" />
     <Content Include="Content\assets\mainmenu.gif" />
     <Content Include="Content\assets\main_menu.gif" />
+    <Content Include="Content\assets\one-icon.svg" />
+    <Content Include="Content\assets\overview-icon.svg" />
     <Content Include="Content\assets\registration.gif" />
     <Content Include="Content\assets\TitleLogo.png" />
     <Content Include="Content\assets\view1.gif" />
     <Content Include="Content\assets\view2.gif" />
     <Content Include="Content\assets\welcome instruc.png" />
+    <Content Include="Content\assets\welcome.gif" />
+    <Content Include="Content\assets\welcome.png" />
+    <Content Include="Content\assets\welcome2.gif" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -157,9 +171,13 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Dashboard1.css" />
+    <Content Include="Content\Login.css" />
     <Content Include="Content\MainMenu.css" />
     <Content Include="Content\materialize.min.css" />
     <Content Include="Content\manageflashcards.css" />
+    <Content Include="Content\Registration.css" />
+    <Content Include="Content\Welcome.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -993,6 +1011,9 @@
     <Content Include="Views\Home\LogInPage.cshtml" />
     <Content Include="Views\Shared\_ManageFlashcardLayout.cshtml" />
     <Content Include="Views\Home\ManageFlashcardPage.cshtml" />
+    <Content Include="Views\Home\Dashboard1.cshtml" />
+    <Content Include="Views\Home\WelcomePage.cshtml" />
+    <Content Include="Views\Shared\_Dashboard1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
