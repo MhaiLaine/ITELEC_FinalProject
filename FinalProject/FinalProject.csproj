@@ -180,6 +180,7 @@
     <Content Include="Content\materialize.min.css" />
     <Content Include="Content\manageflashcards.css" />
     <Content Include="Content\Registration.css" />
+    <Content Include="Content\studyflashcards.css" />
     <Content Include="Content\Welcome.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -1019,6 +1020,7 @@
     <Content Include="Views\Shared\_Dashboard1.cshtml" />
     <Content Include="Views\Shared\_Dashboard2.cshtml" />
     <Content Include="Views\Home\Dashboard2.cshtml" />
+    <Content Include="Views\Home\StudyFlashcardsPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

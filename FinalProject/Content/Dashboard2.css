@@ -16,6 +16,19 @@
     font-family: the-seasons, sans-serif;
     font-weight: 800;
     font-style: oblique;
+    /* Glow effect */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4), 0 0 40px rgba(255, 255, 255, 0.3);
+}
+
+.deckTitle {
+    color: white;
+    font-family: the-seasons, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+
+    /* Glow effect */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4), 0 0 40px rgba(255, 255, 255, 0.3); 
+
 }
 
 .btn-small {
@@ -23,3 +36,4 @@
     font-family: Philosopher;
     font-weight: 400;
 }
+

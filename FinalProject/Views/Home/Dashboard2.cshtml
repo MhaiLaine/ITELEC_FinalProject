@@ -2,7 +2,6 @@
     Layout = "~/Views/Shared/_Dashboard2.cshtml";
 }
 
-
 <!--First Row-->
 <div class="row">
 
@@ -15,11 +14,11 @@
 
         <!--Buttons-->
         <div class="col s2 m2 l2">
-            <a class="waves-effect waves-light btn-small" style="width: 13em; margin-left: 3em;">Add Deck</a>
+            <a class="waves-effect waves-light btn-small" style="width: 13em; margin-left: 3em;" ng-click="redirectToManageFlashcards()">Add Deck</a>
         </div>
 
         <div class="col s2 m2 l2">
-            <a class="waves-effect waves-light btn-small" style="width: 13em;">Study</a>
+            <a class="waves-effect waves-light btn-small" style="width: 13em;" ng-click="redirectToStudyFlashcards()">Study</a>
         </div>
 
     </div>
@@ -27,8 +26,27 @@
 
 
 <!--Second Row: Crystal Ball Area-->
+<div class="row">
+    <div class="crystalBall">
+        <div class="col s4 m4 l4"></div>
+        <div class="col s4 m4 l4" style="margin-top: 28.5em;"></div>
+        <div class="col s4 m4 l4"></div>
+    </div>
 
+</div>
 
 
 
 <!--Third Row: Deck Title Area-->
+<div class="row">
+    <div class="col s4 m4 l4"></div>
+
+
+    <!--Title-->
+    <div class="col s4 m4 l4 center-align">
+        <h4 class="deckTitle"> Deck Name Here </h4>
+    </div>
+
+
+    <div class="col s4 m4 l4"></div>
+</div>

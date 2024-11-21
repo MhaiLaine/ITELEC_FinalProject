@@ -3,60 +3,76 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\studyflashcardspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\studyflashcardspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\shared\\_studyflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_studyflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_Dashboard2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,84 +82,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard2.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard2.css",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css",
-              "RelativeToolTip": "FinalProject\\Content\\Dashboard2.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "studyflashcards.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\studyflashcards.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\studyflashcards.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\studyflashcards.css",
+              "RelativeToolTip": "FinalProject\\Content\\studyflashcards.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-21T04:15:25.789Z"
+              "WhenOpened": "2024-11-21T06:04:22.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudyFlashcardsPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T06:00:42.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageFlashcardPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T05:55:56.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Controller.js",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T16:35:13.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Dashboard1.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T23:32:08.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RegistrationPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:45:06.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Dashboard2.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard2.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard2.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard2.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\Dashboard2.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-21T04:01:53.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Dashboard2.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T04:01:40.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "FinalProject\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "FinalProject\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T03:24:22.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Dashboard1.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard1.css",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
               "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T23:38:45.384Z"
+              "WhenOpened": "2024-11-20T23:38:45.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Dashboard1.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_StudyFlashcards.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_StudyFlashcards.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:32:08.245Z"
+              "WhenOpened": "2024-11-21T05:58:38.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "MainMenu.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:47:27.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Dashboard1.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
@@ -155,31 +228,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:50:01.397Z"
+              "WhenOpened": "2024-11-20T17:50:01.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Controller.js",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-20T16:35:13.491Z"
+              "DocumentIndex": 11,
+              "Title": "Dashboard2.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard2.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard2.css",
+              "RelativeToolTip": "FinalProject\\Content\\Dashboard2.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T04:15:25.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Registration.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Registration.css",
@@ -191,31 +265,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainMenu.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T17:47:27.927Z"
+              "DocumentIndex": 14,
+              "Title": "MainMenu.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\MainMenu.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
+              "RelativeToolTip": "FinalProject\\Content\\MainMenu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-20T16:04:41.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegistrationPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T16:45:06.602Z"
+              "DocumentIndex": 15,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FinalProject\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FinalProject\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T03:24:22.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
+              "Title": "_Dashboard2.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T04:01:40.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "_MainMenuLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
@@ -224,18 +310,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T16:00:05.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainMenu.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\MainMenu.css",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
-              "RelativeToolTip": "FinalProject\\Content\\MainMenu.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T16:04:41.465Z"
             }
           ]
         }

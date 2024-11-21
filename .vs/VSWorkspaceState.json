@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\FinalProject",
-    "\\FinalProject\\App_Start",
     "\\FinalProject\\Content",
     "\\FinalProject\\Content\\assets",
     "\\FinalProject\\Controllers",
+    "\\FinalProject\\Scripts",
+    "\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject.sln",
+  "SelectedNode": "\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
   "PreviewInSolutionExplorer": false
 }

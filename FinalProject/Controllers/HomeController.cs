@@ -43,6 +43,10 @@ namespace FinalProject.Controllers
             return View();
         }
 
+        public ActionResult StudyFlashcardsPage()
+        {
+            return View();
+        }
 
     }
 }

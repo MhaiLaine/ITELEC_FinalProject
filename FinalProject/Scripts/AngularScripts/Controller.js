@@ -60,11 +60,18 @@
 
 
 
-    // 5. 
+    // 5.
+
+
+    $scope.redirectToManageFlashcards = function () {
+        $window.location.href = "/Home/ManageFlashcardPage";
+    };
 
 
 
-
+    $scope.redirectToStudyFlashcards = function () {
+        $window.location.href = "/Home/StudyFlashcardsPage";
+    };
 
 
 
