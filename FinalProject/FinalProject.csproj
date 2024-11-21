@@ -129,7 +129,13 @@
   <ItemGroup>
     <Content Include="Content\assets\book.png" />
     <Content Include="Content\assets\cardbg.png" />
+    <Content Include="Content\assets\cardbg1.png" />
     <Content Include="Content\assets\CardLogo.png" />
+    <Content Include="Content\assets\deck1.png" />
+    <Content Include="Content\assets\deck2.png" />
+    <Content Include="Content\assets\deck3.png" />
+    <Content Include="Content\assets\deck4.png" />
+    <Content Include="Content\assets\deckbg.png" />
     <Content Include="Content\assets\flashcard.png" />
     <Content Include="Content\assets\for_mainmenu.png" />
     <Content Include="Content\assets\login.gif" />

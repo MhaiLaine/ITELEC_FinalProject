@@ -2,7 +2,71 @@
     Layout = "~/Views/Shared/_Dashboard1.cshtml";
 }
 
+<!--First Row-->
+<div class="row">
 
-<div class="row"></div>
+    <div class="titleButtonsContainer">
+        <!--Title-->
+        <div class="col s8 m8 l8">
+            <h3 class="dashboardTitle"> Arcane Decks </h3>
+        </div>
 
-<div class="row"></div>
+
+        <!--Buttons-->
+        <div class="col s2 m2 l2">
+            <a class="waves-effect waves-light btn-small" style="width: 13em; margin-left: 3em;">Add Deck</a>
+        </div>
+
+        <div class="col s2 m2 l2">
+            <a class="waves-effect waves-light btn-small" style="width: 13em;">Study</a>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!--Second Row-->
+<div class="row">
+    <div class="decksContainer">
+        <div class="col s1 m1 l1 deckHolder"></div>
+
+        <div class="col s2 m2 l2 deckHolder">
+            <img src="~/Content/assets/deck1.png" style="max-width: 14em; height: auto; position: relative; z-index: 1;">
+            <p class="deckTitle"> Deck Title </p>
+            <p class="deckSubtitle"> 6 Cards </p>
+        </div>
+
+
+        <div class="col s2 m2 l2 deckHolder">
+            <img src="~/Content/assets/deck2.png" style="max-width: 14em; height: auto; z-index:1;">
+            <p class="deckTitle"> Deck Title </p>
+            <p class="deckSubtitle"> 6 Cards </p>
+        </div>
+
+
+        <div class="col s2 m2 l2 deckHolder">
+            <img src="~/Content/assets/deck3.png" style="max-width: 14em; height: auto; z-index:1;">
+            <p class="deckTitle"> Deck Title </p>
+            <p class="deckSubtitle"> 6 Cards </p>
+        </div>
+
+
+        <div class="col s2 m2 l2 deckHolder">
+            <img src="~/Content/assets/deck4.png" style="max-width: 14em; height: auto; z-index:1;">
+            <p class="deckTitle"> Deck Title </p>
+            <p class="deckSubtitle"> 6 Cards </p>
+        </div>
+
+
+        <div class="col s2 m2 l2 deckHolder">
+            <img src="~/Content/assets/deck4.png" style="max-width: 14em; height: auto; z-index:1;">
+            <p class="deckTitle"> Deck Title </p>
+            <p class="deckSubtitle"> 6 Cards </p>
+        </div>
+
+        <div class="col s1 m1 l1"></div>
+    </div>
+
+</div>

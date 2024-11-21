@@ -17,19 +17,7 @@
         };
 
 
-
-    // 3. Log In Page
-
-
-
-    // 4.Welcome Page
-    $scope.redirectToDashboard = function () {
-        $window.location.href = "/Home/Dashboard1";
-    };
-
-
-
-    // 5. Login Page
+    // 3. Login Page
     $scope.loginFunction = function () {
         // Get credentials from sessionStorage
         var storedCredentials = sessionStorage.getItem("credentials");
@@ -62,6 +50,17 @@
         }
     };
 
+
+
+
+    // 4.Welcome Page
+    $scope.redirectToDashboard = function () {
+        $window.location.href = "/Home/Dashboard1";
+    };
+
+
+
+    // 5. 
 
 
 

@@ -3,56 +3,48 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_Dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\content\\dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\LogInPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\shared\\_dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\RegistrationPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Scripts\\AngularScripts\\Controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +54,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dashboard1.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard1.css",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
-              "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T23:38:45.384Z",
-              "EditorCaption": ""
+              "Title": "LogInPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\LogInPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\LogInPage.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T00:45:32.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "_Dashboard1.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
@@ -92,59 +83,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Dashboard1.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T23:18:42.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Login.css",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css",
-              "RelativeToolTip": "FinalProject\\Content\\Login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T23:35:00.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:33:41.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LogInPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T23:33:35.324Z",
+              "Title": "Dashboard1.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard1.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
+              "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-20T23:38:45.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
@@ -152,38 +117,36 @@
               "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:50:01.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T17:50:01.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Controller.js",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-20T16:35:13.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Registration.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Registration.css",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeToolTip": "FinalProject\\Content\\Registration.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T19:03:47.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T19:03:47.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MainMenu.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
@@ -191,21 +154,19 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T17:47:27.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T17:47:27.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "RegistrationPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T16:45:06.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:45:06.602Z"
             },
             {
               "$type": "Document",
@@ -217,12 +178,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T16:00:05.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:00:05.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "MainMenu.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\MainMenu.css",
@@ -230,8 +190,7 @@
               "RelativeToolTip": "FinalProject\\Content\\MainMenu.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T16:04:41.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:04:41.465Z"
             }
           ]
         }
