@@ -3,12 +3,13 @@
     "",
     "\\FinalProject",
     "\\FinalProject\\Content",
+    "\\FinalProject\\Controllers",
     "\\FinalProject\\Scripts",
     "\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject\\Views\\Home\\MainMenu.cshtml",
+  "SelectedNode": "\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
   "PreviewInSolutionExplorer": false
 }

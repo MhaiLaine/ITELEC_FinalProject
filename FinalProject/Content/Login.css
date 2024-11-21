@@ -1,0 +1,94 @@
+﻿body {
+    background: url('assets/login3.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.loginfields-container {
+    width: 25em;
+    margin-left: 2.5em;
+}
+
+.loginButton {
+    margin-top: 2.5em;
+    margin-left: 2.5em !important;
+    width: 25em !important;
+}
+
+
+/* HELPER TEXT */
+.input-field .helper-text {
+    color: #ff5252 !important;
+    font-size: 12px !important;
+    margin-top: 0.3em;
+    display: block;
+}
+
+    /* Inactive state: change helper text color to #8d6e63 */
+    .input-field .helper-text:not(:focus-within) {
+        color: #8d6e63 !important;
+    }
+
+input:focus {
+    border-bottom: 1px solid #42a5f5 !important; /* Change the bottom border to blue */
+    box-shadow: 0 1px 0 0 #42a5f5 !important; /* Change the shadow effect to blue */
+}
+
+/* Colors when the input is valid */
+input.valid {
+    border-bottom: 1px solid #42a5f5 !important; /* Change valid bottom border to blue */
+    box-shadow: 0 1px 0 0 #42a5f5 !important; /* Change valid shadow effect to blue */
+}
+
+input {
+    border-bottom: 1px solid #8d6e63 !important; /* Change valid bottom border to blue */
+    box-shadow: 0 1px 0 0 #8d6e63 !important; /* Change valid shadow effect to blue */
+}
+
+    /* Label color when the input is focused or valid */
+    input:focus + label, input.valid + label {
+        color: #42a5f5 !important; /* Change label text color to blue */
+        font-weight: 600;
+    }
+
+/* Inactive state for the label (when the input is not focused or valid) */
+.input-field label {
+    color: #8d6e63 !important; /* Label color when inactive */
+    font-weight: 600; /* Font weight when inactive */
+}
+
+/* Change the icon color when the input field is focused */
+.input-field .material-icons {
+    color: #8d6e63 !important; /* Default icon color to #8d6e63 */
+}
+
+/* Change icon color when input is focused */
+.input-field input:focus ~ .material-icons {
+    color: #42a5f5 !important; /* #42a5f5 color on focus */
+}
+
+/* Add active class to the icon when the field is clicked */
+.input-field .material-icons.active {
+    color: #42a5f5 !important; /* Icon stays #42a5f5 when active */
+}
+
+/* Ensure icon stays #42a5f5 while the input field is active */
+input:focus ~ .material-icons.active, input.valid ~ .material-icons.active {
+    color: #42a5f5 !important; /* #42a5f5 when input is active or valid */
+}
+
+/* When the input is focused, apply color to the icon */
+.input-field input:focus ~ .material-icons {
+    color: #42a5f5 !important;
+}
+
+/* Apply #42a5f5 color when the input is valid */
+.input-field input.valid ~ .material-icons {
+    color: #42a5f5 !important;
+}
+
+/* When the input field is valid, text color changes to #42a5f5 */
+input:valid {
+    color: black !important; /* Change text color to #42a5f5 */
+}

@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Welcome.cshtml";
+}
+
+<div class="row" style="margin-top: 12em;"></div>
+
+<div class="row">
+    <div class="col s3 m3 l3"></div>
+
+    <!-- Header: Not Centered -->
+    <div class="col s6 m6 l6">
+        <h1 class="welcomeText">Welcome, (insert name) <span ng-bind="userName"></span>!</h1>
+    </div>
+
+    <div class="col s3 m3 l3"></div>
+</div>
+
+<div class="row">
+    <div class="col s3 m3 l3"></div>
+
+    <!-- Centered Content -->
+    <div class="col s6 m6 l6 center-align">
+        <div class="descriptionContainer" style="margin-top: -2.5em">
+            <p class="welcomeDescription" >
+                At <span class="bold-word">SpellCards</span>, your journey begins with a quick spell. Start by<br />selecting a deck of flashcards from your chosen subject. Test your<br />skills by flipping through cards and answering the questions. Study<br />at your own pace—no scores, just pure learning. <br /><br />Remember, mastery of magic comes with practice—<span class="bold-word"><br />diligence</span> is your greatest spell! <br /><br />Click the button below to begin your magical journey to mastery!
+            </p>
+        </div>
+
+        <div class="row" style="margin-top: 2em">
+            <div class="col s3 m3 l3"></div>
+            <div class="col s6 m6 l6">
+                <a class="waves-effect waves-light btn full-width" ng-click="redirectToDashboard()" style="width: 20em !important;">Begin</a>
+            </div>
+            <div class="col s3 m3 l3"></div> 
+        </div>
+    </div>
+
+    <div class="col s3 m3 l3"></div>
+</div>
+<div class="row"></div>

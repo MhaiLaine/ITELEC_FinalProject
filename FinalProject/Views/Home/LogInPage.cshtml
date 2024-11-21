@@ -2,4 +2,55 @@
     Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
 
+<div class="row" style="margin-top: 19em;"></div>
 
+
+    <div class="row">
+        <div class="col s4 m4 l4"></div>
+        <div class="col s4 m4 l4">
+
+
+            <form name="loginForm" class="card-content black-text">
+
+                <div class="loginfields-container">
+                    @*Username Form Field*@
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">face</i>
+                        <input id="username" name="username" type="text" class="validate" ng-model="username" required>
+                        <label for="username">Username</label>
+
+                        <span class="helper-text" ng-if="(loginForm.username.$touched || loginForm.username.$dirty)">
+                            <span ng-if="loginForm.username.$error.required">Username is required.</span>
+
+                        </span>
+                    </div>
+
+
+                    @*Password Form Field*@
+                    <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="userPassword" name="userPassword" type="password" class="validate" ng-model="userPassword"
+                               ng-minlength="8"
+                               ng-maxlength="20"
+                               required>
+                        <label for="userPassword">Password</label>
+
+                        <span class="helper-text" ng-if="(loginForm.userPassword.$touched || loginForm.userPassword.$dirty)">
+                            <span ng-if="loginForm.userPassword.$error.required">Password is required.</span>
+                            <span ng-if="loginForm.userPassword.$error.minlength">Password must be at least 8 characters long.</span>
+                            <span ng-if="loginForm.userPassword.$error.maxlength">Password cannot exceed 20 characters.</span>
+                        </span>
+                    </div>
+                </div>
+            </form>
+
+                @*Login Button*@
+                <div class="col s12 m12 l12 loginButton">
+                    <a class="waves-effect waves-light btn-large col s12 m12 l12 blue lighten-1" ng-click="loginFunction()" ng-disabled="loginForm.$invalid">Login</a>
+                </div>
+
+        </div>
+        <div class="col s4 m4 l4"></div>
+
+
+    </div>
