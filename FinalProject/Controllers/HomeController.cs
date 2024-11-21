@@ -41,6 +41,9 @@ namespace FinalProject.Controllers
         public ActionResult ManageFlashcardPage()
         {
             return View();
+        } public ActionResult StudyFlashcardsPage()
+        {
+            return View();
         }
 
 
