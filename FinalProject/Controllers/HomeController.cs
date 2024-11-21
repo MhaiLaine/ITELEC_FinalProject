@@ -13,5 +13,33 @@ namespace FinalProject.Controllers
             return View();
         }
 
+        public ActionResult RegistrationPage()
+        {
+            return View();
+        }
+
+        public ActionResult LogInPage()
+        {
+            return View();
+        }
+
+        public ActionResult WelcomePage()
+        {
+            return View();
+        }
+
+        public ActionResult Dashboard1()
+        {
+            return View();
+        }
+
+        public ActionResult Dashboard2()
+        {
+            return View();
+        }
+
+
+
+
     }
 }

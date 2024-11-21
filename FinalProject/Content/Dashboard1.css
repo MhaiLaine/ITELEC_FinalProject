@@ -1,0 +1,65 @@
+﻿body {
+    background: url('assets/view1.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleButtonsContainer {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+/* First Row */
+.dashboardTitle {
+    margin-top: 2em;
+    color: white;
+    font-family: the-seasons, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.btn-small {
+    margin-top: 7em;
+    font-family: Philosopher;
+    font-weight: 400;
+}
+
+/* Second Row */
+.decksContainer {
+    padding-top: -2em;
+}
+
+
+.deckHolder {
+    position: relative; /* Set position for the container */
+    padding-top: -2em;
+}
+
+.deckTitle {
+    position: absolute; /* Position the title absolutely within the container */
+    top: 50%; /* Adjust as needed for perfect positioning */
+    left: 48%;
+    transform: translate(-60%, 80%); /* Center the title horizontally and vertically */
+    z-index: 10; /* Ensure it overlaps on top of the deck image */
+    color: white;
+    font-family: Philosopher;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.deckSubtitle {
+    position: absolute; /* Position the title absolutely within the container */
+    top: 68%; /* Adjust as needed for perfect positioning */
+    left: 47%;
+    transform: translate(-60%, 80%); /* Center the title horizontally and vertically */
+    z-index: 10; /* Ensure it overlaps on top of the deck image */
+    color: white;
+    font-family: Philosopher;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
