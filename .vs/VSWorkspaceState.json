@@ -6,11 +6,10 @@
     "\\FinalProject\\Content",
     "\\FinalProject\\Content\\assets",
     "\\FinalProject\\Controllers",
-    "\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject\\Views\\Home\\Dashboard2.cshtml",
+  "SelectedNode": "\\FinalProject.sln",
   "PreviewInSolutionExplorer": false
 }

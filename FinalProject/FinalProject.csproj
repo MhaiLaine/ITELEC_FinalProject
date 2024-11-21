@@ -137,6 +137,7 @@
     <Content Include="Content\assets\deck4.png" />
     <Content Include="Content\assets\deckbg.png" />
     <Content Include="Content\assets\flashcard.png" />
+    <Content Include="Content\assets\flashcard_horizontal.png" />
     <Content Include="Content\assets\for_mainmenu.png" />
     <Content Include="Content\assets\login.gif" />
     <Content Include="Content\assets\login2.gif" />
