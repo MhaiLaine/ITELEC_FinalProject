@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,8 +12,14 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject\\Views\\Home\\MainMenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +34,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "_ManageFlashcardLayout.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
@@ -40,6 +48,8 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+=======
+>>>>>>> Stashed changes
               "Title": "_MainMenuLayout.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
@@ -47,7 +57,8 @@
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T17:26:06.033Z"
+              "WhenOpened": "2024-11-20T17:26:06.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +68,7 @@
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
               "ToolTip": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T17:25:51.344Z"
             }

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\xampp\\htdocs\\itelec_finalproject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,10 +15,13 @@
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,8 +110,7 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T18:35:07.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:35:07.723Z"
             },
             {
               "$type": "Document",

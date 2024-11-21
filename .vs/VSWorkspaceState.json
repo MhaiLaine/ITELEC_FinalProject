@@ -3,11 +3,14 @@
     "",
     "\\FinalProject",
     "\\FinalProject\\App_Start",
-    "\\FinalProject\\Content",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
+=======
+  "SelectedNode": "\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }

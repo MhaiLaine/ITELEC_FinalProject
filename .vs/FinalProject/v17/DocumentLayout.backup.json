@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,10 +12,23 @@
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\xampp\\htdocs\\itelec_finalproject\\finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\xampp\\htdocs\\ITELEC_FinalProject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,7 +68,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
@@ -70,13 +88,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_ManageFlashcardLayout.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "ToolTip": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T18:31:08.969Z",
               "EditorCaption": ""
@@ -91,21 +113,27 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T18:35:07.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:35:07.723Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "manageflashcards.css",
               "DocumentMoniker": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Content\\manageflashcards.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\manageflashcards.css",
               "ToolTip": "C:\\xampp\\htdocs\\ITELEC_FinalProject\\FinalProject\\Content\\manageflashcards.css",
               "RelativeToolTip": "FinalProject\\Content\\manageflashcards.css",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDQAAAAPAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T18:13:34.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:13:34.4Z"
             },
             {
               "$type": "Document",
