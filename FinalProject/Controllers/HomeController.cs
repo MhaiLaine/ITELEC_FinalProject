@@ -38,7 +38,10 @@ namespace FinalProject.Controllers
             return View();
         }
 
-
+        public ActionResult ManageFlashcardPage()
+        {
+            return View();
+        }
 
 
     }
