@@ -1,0 +1,73 @@
+﻿body {
+    font-family: Garamond, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('assets/view1.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    height: 100vh; 
+}
+
+
+.container {
+    padding: 40px; 
+    width: 100%;
+    margin: 0 auto; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.flashcard {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+
+    .flashcard textarea {
+        width: 100%; 
+        height: 150px; 
+        padding: 15px; 
+        font-size: 16px; 
+        border-radius: 8px; 
+        border: 2px solid #ccc; 
+        margin-bottom: 10px; 
+        box-sizing: border-box; 
+    }
+
+       button {
+    padding: 12px 20px; 
+    font-size: 16px; 
+    margin-top: 20px; 
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+#add-card {
+    background-color: #007bff;
+    color: white;
+}
+
+#save-cards {
+    background-color: #28a745;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}

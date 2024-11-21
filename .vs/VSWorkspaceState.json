@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\FinalProject",
+    "\\FinalProject\\App_Start",
     "\\FinalProject\\Content",
-    "\\FinalProject\\Scripts",
-    "\\FinalProject\\Scripts\\AngularScripts",
     "\\FinalProject\\Views",
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"

@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_ManageFlashcardLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Creator</title>
+    <link rel="stylesheet" href="~/Content/manageflashcards.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Flashcards</h1>
+        <div id="flashcards-container">
+            <div class="flashcard">
+                <div>
+                    <label for="front1">Front</label>
+                    <textarea id="front1" placeholder="Enter your question here"></textarea>
+                </div>
+                <div>
+                    <label for="back1">Back</label>
+                    <textarea id="back1" placeholder="Enter the answer here"></textarea>
+                </div>
+            </div>
+        </div>
+        <button id="add-card">Add a new card</button>
+        <button id="save-cards">Save</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

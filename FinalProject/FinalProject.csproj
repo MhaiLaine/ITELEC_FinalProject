@@ -159,6 +159,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\MainMenu.css" />
     <Content Include="Content\materialize.min.css" />
+    <Content Include="Content\manageflashcards.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -990,6 +991,8 @@
     <Content Include="Views\Shared\_StudyFlashcards.cshtml" />
     <Content Include="Views\Home\RegistrationPage.cshtml" />
     <Content Include="Views\Home\LogInPage.cshtml" />
+    <Content Include="Views\Shared\_ManageFlashcardLayout.cshtml" />
+    <Content Include="Views\Home\ManageFlashcardPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
