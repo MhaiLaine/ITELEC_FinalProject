@@ -1,0 +1,25 @@
+﻿body {
+    background: url('assets/view2_higher.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleButtonsContainer {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* First Row */
+.dashboardTitle {
+    margin-top: 1.3em;
+    color: #6F5449;
+    font-family: the-seasons, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.btn-small {
+    margin-top: 4.5em;
+    font-family: Philosopher;
+    font-weight: 400;
+}
