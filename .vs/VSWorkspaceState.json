@@ -10,6 +10,6 @@
     "\\FinalProject\\Views\\Home",
     "\\FinalProject\\Views\\Shared"
   ],
-  "SelectedNode": "\\FinalProject\\Views\\Home\\Dashboard2.cshtml",
+  "SelectedNode": "\\FinalProject\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

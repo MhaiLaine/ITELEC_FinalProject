@@ -314,3 +314,14 @@ C:\ASP_Projects\ITELEC_FinalProject\FinalProject\obj\Debug\FinalProject.csproj.C
 C:\ASP_Projects\ITELEC_FinalProject\FinalProject\obj\Debug\FinalPro.8C09D514.Up2Date
 C:\ASP_Projects\ITELEC_FinalProject\FinalProject\obj\Debug\FinalProject.dll
 C:\ASP_Projects\ITELEC_FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\ASP_Projects\FinalProject\FinalProject\bin\BouncyCastle.Crypto.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\EntityFramework.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\EntityFramework.SqlServer.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\Google.Protobuf.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\MySql.Data.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\MySql.Data.EntityFramework.dll
+C:\ASP_Projects\FinalProject\FinalProject\bin\EntityFramework.xml
+C:\ASP_Projects\FinalProject\FinalProject\bin\EntityFramework.SqlServer.xml
+C:\ASP_Projects\FinalProject\FinalProject\bin\Google.Protobuf.xml
+C:\ASP_Projects\FinalProject\FinalProject\bin\MySql.Data.xml
+C:\ASP_Projects\FinalProject\FinalProject\bin\MySql.Data.EntityFramework.xml
