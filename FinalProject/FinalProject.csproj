@@ -124,6 +124,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\admin_tbl_model.cs" />
+    <Compile Include="Models\deck_tbl_model.cs" />
+    <Compile Include="Models\RegistrationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +147,7 @@
     <Content Include="Content\assets\login3.gif" />
     <Content Include="Content\assets\logotitle_transparent.png" />
     <Content Include="Content\assets\logo_with_title.png" />
+    <Content Include="Content\assets\main.mp3" />
     <Content Include="Content\assets\mainmenu.gif" />
     <Content Include="Content\assets\main_menu.gif" />
     <Content Include="Content\assets\one-icon.svg" />
@@ -1024,7 +1028,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

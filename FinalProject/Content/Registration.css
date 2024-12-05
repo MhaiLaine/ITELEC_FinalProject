@@ -136,3 +136,37 @@ input:focus ~ .material-icons.active, input.valid ~ .material-icons.active {
 input:valid {
     color: white !important; /* Change text color to white */
 }
+
+
+
+
+/*additional codes for userEmail form field*/
+
+/* Set text color for userEmail input field */
+input[type="userEmail"] {
+    color: white !important;
+}
+
+    /* Ensure placeholder text is also white */
+    input[type="userEmail"]::placeholder {
+        color: white !important;
+        opacity: 0.7; /* Adjust transparency if needed */
+    }
+
+    /* Override the default behavior for focused userEmail input */
+    input[type="userEmail"]:focus {
+        color: white !important;
+        border-bottom: 1px solid white !important; /* Change the bottom border to white */
+        box-shadow: 0 1px 0 0 white !important; /* Add white shadow */
+    }
+
+    /* For valid userEmail input */
+    input[type="userEmail"].valid {
+        color: white !important;
+        border-bottom: 1px solid white !important;
+        box-shadow: 0 1px 0 0 white !important;
+    }
+
+    input[type="userEmail"] {
+        color: white !important;
+    }

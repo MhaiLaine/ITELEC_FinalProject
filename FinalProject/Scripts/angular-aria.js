@@ -145,8 +145,8 @@ function $AriaProvider() {
     return function(scope, elem, attr) {
       if (attr.hasOwnProperty(ARIA_DISABLE_ATTR)) return;
 
-      var ariaCamelName = attr.$normalize(ariaAttr);
-      if (config[ariaCamelName] && !isNodeOneOf(elem, nativeAriaNodeNames) && !attr[ariaCamelName]) {
+      var ariaCamelastName = attr.$normalize(ariaAttr);
+      if (config[ariaCamelastName] && !isNodeOneOf(elem, nativeAriaNodeNames) && !attr[ariaCamelastName]) {
         scope.$watch(attr[attrName], function(boolVal) {
           // ensure boolean value
           boolVal = negate ? !boolVal : !!boolVal;

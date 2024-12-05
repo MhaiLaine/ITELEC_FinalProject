@@ -715,7 +715,7 @@
     <loc>https://docs.angularjs.org/api/ng/input/input[url]</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/api/ng/input/input[email]</loc>
+    <loc>https://docs.angularjs.org/api/ng/input/input[userEmail]</loc>
   </url>
   <url>
     <loc>https://docs.angularjs.org/api/ng/input/input[radio]</loc>

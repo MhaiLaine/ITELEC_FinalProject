@@ -39,17 +39,17 @@ var jqLite;
  * have a text input named `myField` which is bound to the scope variable `field` using the {@link ngModel ngModel}
  * directive.
  *
- * The `myField` field is a required input of type `email` with a maximum length of 15 characters.
+ * The `myField` field is a required input of type `userEmail` with a maximum length of 15 characters.
  *
  * ```html
  * <form name="myForm">
  *   <label>
  *     Enter text:
- *     <input type="email" ng-model="field" name="myField" required maxlength="15" />
+ *     <input type="userEmail" ng-model="field" name="myField" required maxlength="15" />
  *   </label>
  *   <div ng-messages="myForm.myField.$error" role="alert">
  *     <div ng-message="required">Please enter a value for this field.</div>
- *     <div ng-message="email">This field must be a valid email address.</div>
+ *     <div ng-message="userEmail">This field must be a valid userEmail address.</div>
  *     <div ng-message="maxlength">This field can be at most 15 characters long.</div>
  *   </div>
  * </form>
@@ -72,15 +72,15 @@ var jqLite;
  * to prioritize messages using custom JavaScript code.
  *
  * Given the following error object for our example (which informs us that the field `myField` currently has both the
- * `required` and `email` errors):
+ * `required` and `userEmail` errors):
  *
  * ```javascript
  * <!-- keep in mind that ngModel automatically sets these error flags -->
- * myField.$error = { required : true, email: true, maxlength: false };
+ * myField.$error = { required : true, userEmail: true, maxlength: false };
  * ```
- * The `required` message will be displayed to the user since it appears before the `email` message in the DOM.
+ * The `required` message will be displayed to the user since it appears before the `userEmail` message in the DOM.
  * Once the user types a single character, the `required` message will disappear (since the field now has a value)
- * but the `email` message will be visible because it is still applicable.
+ * but the `userEmail` message will be visible because it is still applicable.
  *
  * ### Displaying multiple messages at the same time
  *
@@ -124,22 +124,22 @@ var jqLite;
  *
  * <form name="myForm">
  *   <label>
- *     Email address
- *     <input type="email"
- *            id="email"
- *            name="myEmail"
- *            ng-model="email"
+ *     userEmail address
+ *     <input type="userEmail"
+ *            id="userEmail"
+ *            name="myuserEmail"
+ *            ng-model="userEmail"
  *            minlength="5"
  *            required />
  *   </label>
  *   <!-- any ng-message elements that appear BEFORE the ng-messages-include will
  *        override the messages present in the ng-messages-include template -->
- *   <div ng-messages="myForm.myEmail.$error" role="alert">
+ *   <div ng-messages="myForm.myuserEmail.$error" role="alert">
  *     <!-- this required message has overridden the template message -->
- *     <div ng-message="required">You did not enter your email address</div>
+ *     <div ng-message="required">You did not enter your userEmail address</div>
  *
  *     <!-- this is a brand new message and will appear last in the prioritization -->
- *     <div ng-message="email">Your email address is invalid</div>
+ *     <div ng-message="userEmail">Your userEmail address is invalid</div>
  *
  *     <!-- and here are the generic error messages -->
  *     <div ng-messages-include="my-custom-messages"></div>
@@ -149,7 +149,7 @@ var jqLite;
  *
  * In the example HTML code above the message that is set on required will override the corresponding
  * required message defined within the remote template. Therefore, with particular input fields (such
- * email addresses, date fields, autocomplete inputs, etc...), specialized error messages can be applied
+ * userEmail addresses, date fields, autocomplete inputs, etc...), specialized error messages can be applied
  * while more generic messages can be used to handle other, more general input errors.
  *
  * ## Dynamic Messaging
@@ -160,15 +160,15 @@ var jqLite;
  * ```html
  * <form name="myForm">
  *   <label>
- *     Email address
- *     <input type="email"
- *            name="myEmail"
- *            ng-model="email"
+ *     userEmail address
+ *     <input type="userEmail"
+ *            name="myuserEmail"
+ *            ng-model="userEmail"
  *            minlength="5"
  *            required />
  *   </label>
- *   <div ng-messages="myForm.myEmail.$error" role="alert">
- *     <div ng-message="required">You did not enter your email address</div>
+ *   <div ng-messages="myForm.myuserEmail.$error" role="alert">
+ *     <div ng-message="required">You did not enter your userEmail address</div>
  *     <div ng-repeat="errorMessage in errorMessages">
  *       <!-- use ng-message-exp for a message whose key is given by an expression -->
  *       <div ng-message-exp="errorMessage.type">{{ errorMessage.text }}</div>
@@ -182,18 +182,18 @@ var jqLite;
  *
  * ```html
  *   <label>
- *     Email address
- *     <input type="email"
- *            ng-model="data.email"
- *            name="myEmail"
+ *     userEmail address
+ *     <input type="userEmail"
+ *            ng-model="data.userEmail"
+ *            name="myuserEmail"
  *            ng-minlength="5"
  *            ng-maxlength="100"
  *            required />
  *   </label>
- *   <div ng-messages="myForm.myEmail.$error" role="alert">
- *     <div ng-message-exp="'required'">You did not enter your email address</div>
+ *   <div ng-messages="myForm.myuserEmail.$error" role="alert">
+ *     <div ng-message-exp="'required'">You did not enter your userEmail address</div>
  *     <div ng-message-exp="['minlength', 'maxlength']">
- *       Your email must be between 5 and 100 characters long
+ *       Your userEmail must be between 5 and 100 characters long
  *     </div>
  *   </div>
  * ```
@@ -205,7 +205,7 @@ var jqLite;
  * directive.
  *
  * ```html
- * <div ng-messages="myForm.myEmail.$error" role="alert">
+ * <div ng-messages="myForm.myuserEmail.$error" role="alert">
  *   <div ng-if="showRequiredError">
  *     <div ng-message="required">Please enter something</div>
  *   </div>

@@ -440,7 +440,7 @@ legend + * {
 
 [type="tel"],
 [type="url"],
-[type="email"],
+[type="userEmail"],
 [type="number"] {
   direction: ltr;
 }

@@ -11,139 +11,153 @@
 
 <!--Second Row: Form Fields-->
 <div class="row">
-    <div class="col s2 m2 l2"></div>
-    <div class="col s8 m8 l8" style="margin-top: -2em;">
-        @*First Name Form Field*@
-        <div class="input-field col s6 m6 l6" >
-            <i class="material-icons prefix">person</i>
-            <input id="firstName" name="firstName" type="text" class="validate" ng-model="firstName"
-                   @* must start and end with letters, dashes, single quotes, or whitespace characters. *@
-                   ng-pattern="/^[a-zA-Z\-\'\s]+$/"
-                   ng-minlength="2"
-                   ng-maxlength="30"
-                   required>
-            <label for="firstName">First Name</label>
+    <div class="col s3 m3 l3"></div>
+    <div class="col s6 m6 l6" style="margin-top: -2em;">
+        <form name="registrationForm" class="card-content black-text">
 
-            <span class="helper-text" style="position: absolute; bottom: -3em; left: 0;"
-                  ng-if="(registrationForm.firstName.$touched || registrationForm.firstName.$dirty)">
-                <span ng-if="registrationForm.firstName.$error.required">First name is required.</span>
-                <span ng-if="registrationForm.firstName.$error.minlength">First name must be at least 2 characters long.</span>
-                <span ng-if="registrationForm.firstName.$error.maxlength">First name cannot exceed 50 characters.</span>
-                <span ng-if="registrationForm.firstName.$error.pattern">First name can only contain letters, dashes (-), and spaces.</span>
-            </span>
-        </div>
+            @*First Name Form Field*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">person</i>
+                <input id="firstName" name="firstName" type="text" class="validate" ng-model="firstName"
+                       @* must start and end with letters, dashes, single quotes, or whitespace characters. *@
+                       ng-pattern="/^[a-zA-Z\-\'\s]+$/"
+                       ng-minlength="2"
+                       ng-maxlength="30"
+                       required>
+                <label for="firstName">First Name</label>
 
-        @*Last Name Form Field*@
-        <div class="input-field col s6 m6 l6">
-            <i class="material-icons prefix">person</i>
-            <input id="lName" name="lName" type="text" class="validate" ng-model="lastName"
-                   ng-pattern="/^[a-zA-Z\-\'\s]+$/"
-                   ng-minlength="2"
-                   ng-maxlength="50"
-                   required>
-            <label for="lName">Last Name</label>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.firstName.$touched || registrationForm.firstName.$dirty)">
+                    <span ng-if="registrationForm.firstName.$error.required">First name is required.</span>
+                    <span ng-if="registrationForm.firstName.$error.minlength">First name must be at least 2 characters long.</span>
+                    <span ng-if="registrationForm.firstName.$error.maxlength">First name cannot exceed 50 characters.</span>
+                    <span ng-if="registrationForm.firstName.$error.pattern">First name can only contain letters, dashes (-), and spaces.</span>
+                </span>
+            </div>
 
-            <span class="helper-text" style="position: absolute; bottom: -3em; left: 0;"
-                  ng-if="(registrationForm.lName.$touched || registrationForm.lName.$dirty)">
-                <span ng-if="registrationForm.lName.$error.required">Last name is required.</span>
-                <span ng-if="registrationForm.lName.$error.minlength">Last name must be at least 2 characters long.</span>
-                <span ng-if="registrationForm.lName.$error.maxlength">Last name cannot exceed 50 characters.</span>
-                <span ng-if="registrationForm.lName.$error.pattern">Last name can only contain letters, dashes (-), and spaces.</span>
-            </span>
-        </div>
+            @*Last Name Form Field*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">person</i>
+                <input id="lastName" name="lastName" type="text" class="validate" ng-model="lastName"
+                       ng-pattern="/^[a-zA-Z\-\'\s]+$/"
+                       ng-minlength="2"
+                       ng-maxlength="50"
+                       required>
+                <label for="lastName">Last Name</label>
 
-        @*username Form Field*@
-        <div class="input-field col s6 m6 l6">
-            <i class="material-icons prefix">person</i>
-            <input id="username" name="username" type="text" class="validate" ng-model="username"
-                   ng-pattern="/^[a-zA-Z\-\'\s]+$/"
-                   ng-minlength="2"
-                   ng-maxlength="50"
-                   required>
-            <label for="username">username</label>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.lastName.$touched || registrationForm.lastName.$dirty)">
+                    <span ng-if="registrationForm.lastName.$error.required">Last name is required.</span>
+                    <span ng-if="registrationForm.lastName.$error.minlength">Last name must be at least 2 characters long.</span>
+                    <span ng-if="registrationForm.lastName.$error.maxlength">Last name cannot exceed 50 characters.</span>
+                    <span ng-if="registrationForm.lastName.$error.pattern">Last name can only contain letters, dashes (-), and spaces.</span>
+                </span>
+            </div>
 
-            <span class="helper-text" style="position: absolute; bottom: -3em; left: 0;"
-                  ng-if="(registrationForm.username.$touched || registrationForm.username.$dirty)">
-                <span ng-if="registrationForm.username.$error.required">username is required.</span>
-                <span ng-if="registrationForm.username.$error.minlength">username must be at least 2 characters long.</span>
-                <span ng-if="registrationForm.username.$error.maxlength">username cannot exceed 50 characters.</span>
-                <span ng-if="registrationForm.username.$error.pattern">username can only contain letters, dashes (-), and spaces.</span>
-            </span>
-        </div>
+            @*username Form Field*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">person</i>
+                <input id="username" name="username" type="text" class="validate" ng-model="username"
+                       ng-pattern="/^[a-zA-Z\-\'\s]+$/"
+                       ng-minlength="2"
+                       ng-maxlength="50"
+                       required>
+                <label for="username">Username</label>
 
-        @*Email Form Field
-        According to RFC 3696 - a document by IETF (org that defines the guidelines and standards of Internet.),
-        An email address can have a total length of 320 characters. 64 characters for the local address before
-        the @ (which counts as 1 character) and 255 characters for the FQDN (Fully Qualified Domain Name)*@
-        <div class="input-field col s6 m6 l6">
-            <i class="material-icons prefix">email</i>
-            <input id="email" name="email" type="email" class="validate" ng-model="email" autocomplete="on"
-                   ng-pattern="emailPattern"
-                   ng-maxlength="254" required>
-            <label for="email">Email</label>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.username.$touched || registrationForm.username.$dirty)">
+                    <span ng-if="registrationForm.username.$error.required">username is required.</span>
+                    <span ng-if="registrationForm.username.$error.minlength">username must be at least 2 characters long.</span>
+                    <span ng-if="registrationForm.username.$error.maxlength">username cannot exceed 50 characters.</span>
+                    <span ng-if="registrationForm.username.$error.pattern">username can only contain letters, dashes (-), and spaces.</span>
+                </span>
+            </div>
 
-            <span class="helper-text" style="position: absolute; bottom: -3em; left: 0;"
-                  ng-if="(registrationForm.email.$touched || registrationForm.email.$dirty)">
-                <span ng-if="registrationForm.email.$error.required">Email is required.</span>
-                <span ng-if="registrationForm.email.$error.maxlength">Email must not exceed 254 characters.</span>
-                <span ng-if="registrationForm.email.$error.pattern">Please enter a valid email address.</span>
-            </span>
-        </div>
+            @*userEmail Form Field
+            According to RFC 3696 - a document by IETF (org that defines the guidelines and standards of Internet.),
+            An userEmail address can have a total length of 320 characters. 64 characters for the local address before
+            the @ (which counts as 1 character) and 255 characters for the FQDN (Fully Qualified Domain Name)*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">userEmail</i>
+                <input id="userEmail" name="userEmail" type="email" class="validate"
+                       ng-model="userEmail"
+                       ng-pattern="userEmailPattern"
+                       ng-maxlength="254"
+                       required>
+                <label for="userEmail">Email</label>
 
-
-        @*Password Form Field*@
-        <div class="input-field col s6 m6 l6">
-            <i class="material-icons prefix">lock_outline</i>
-            <input id="userPassword" name="userPassword" type="password" class="validate" ng-model="userPassword"
-                   ng-minlength="8"
-                   ng-maxlength="20"
-                   required>
-            <label for="userPassword">Password</label>
-
-            <span class="helper-text" style="position: absolute; bottom: -2.5em; left: 0;"
-                  ng-if="(registrationForm.userPassword.$touched || registrationForm.userPassword.$dirty)">
-                <span ng-if="registrationForm.userPassword.$error.required">Password is required.</span>
-                <span ng-if="registrationForm.userPassword.$error.minlength">Password must be at least 8 characters long.</span>
-                <span ng-if="registrationForm.userPassword.$error.maxlength">Password cannot exceed 20 characters.</span>
-            </span>
-        </div>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 0;"
+                      ng-if="(registrationForm.userEmail.$touched || registrationForm.userEmail.$dirty)">
+                    <span ng-if="registrationForm.userEmail.$error.required">userEmail is required.</span>
+                    <span ng-if="registrationForm.userEmail.$error.maxlength">userEmail must not exceed 254 characters.</span>
+                    <span ng-if="registrationForm.userEmail.$error.pattern">Please enter a valid userEmail address.</span>
+                </span>
+            </div>
 
 
-        @*Age Form Field*@
-        <div class="input-field col s6 m6 l6">
-            <i class="material-icons prefix">event</i>
-            <input id="userAge" name="userAge" type="number" class="validate" ng-model="userAge"
-                   ng-pattern="/^\d+$/"
-                   ng-maxlength="11"
-                   required>
-            <label for="userAge">Age</label>
+            @*Password Form Field*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">lock_outline</i>
+                <input id="userPassword" name="userPassword" type="password" class="validate" ng-model="userPassword"
+                       ng-minlength="8"
+                       ng-maxlength="20"
+                       required>
+                <label for="userPassword">Password</label>
 
-            <span class="helper-text" style="position: absolute; bottom: -2.5em; left: 0;"
-                  ng-if="(registrationForm.userAge.$touched || registrationForm.userAge.$dirty)">
-                <span ng-if="registrationForm.userAge.$error.required">Age is required.</span>
-                <span ng-if="registrationForm.userAge.$error.pattern">Age must be a valid number.</span>
-                <span ng-if="registrationForm.userAge.$error.maxlength">Age cannot exceed 11 digits.</span>
-            </span>
-        </div>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.userPassword.$touched || registrationForm.userPassword.$dirty)">
+                    <span ng-if="registrationForm.userPassword.$error.required">Password is required.</span>
+                    <span ng-if="registrationForm.userPassword.$error.minlength">Password must be at least 8 characters long.</span>
+                    <span ng-if="registrationForm.userPassword.$error.maxlength">Password cannot exceed 20 characters.</span>
+                </span>
+            </div>
 
+
+            @*Phone Number Form Field*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">local_phone</i>
+                <input id="userPhone" name="userPhone" type="tel" class="validate" ng-model="userPhone"
+                       ng-pattern="/^\d{7,11}$/"
+                       ng-minlength="7"
+                       ng-maxlength="11"
+                       required>
+                <label for="userPhone">Phone Number</label>
+
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.userPhone.$touched || registrationForm.userPhone.$dirty)">
+                    <span ng-if="registrationForm.userPhone.$error.required">Phone number is required.</span>
+                    <span ng-if="registrationForm.userPhone.$error.pattern">Phone number must be valid.</span>
+                    <span ng-if="registrationForm.userPhone.$error.minlength">Must be at least 7 digits.</span>
+                    <span ng-if="registrationForm.userPhone.$error.maxlength">Entry cannot exceed 11 digits.</span>
+                </span>
+            </div>
+
+        </form>
 
     </div>
-    <div class="col s2 m2 l2"></div>
-
-
-
-</div>
-
-
-<!--Third Row: Button Field-->
-<div class="row">
-
-    <div class="col s4 m4 l4" style="margin-top: 1em;"></div>
-        <div class="col s4 m4 l4">
-            <a class="waves-effect waves-light btn-large col s12 m12 l12 green darken-1" ng-click="submitRegistration()" ng-disabled="registrationForm.$invalid"><i class="material-icons left">check_circle</i>Submit</a>
-        </div>
-    <div class="col s4 m4 l4" style="margin-top: 1em;"></div>
+    <div class="col s3 m3 l3"></div>
 
 
 </div>
+
+
+    <!--Third Row: Button Field-->
+    <div class="row">
+
+            <!--submit-->
+                    <div class="col s4 m4 l4" style="margin-top: 1em;"></div>
+
+            <div class="col s4 m4 l4" style="margin-top: 1em;">
+                <div class="col s6 m6 l6">
+                    <a class="waves-effect waves-light btn-large col s12 m12 l12 green darken-1" ng-click="submitRegistration()" ng-disabled="registrationForm.$invalid"><i class="material-icons left">check_circle</i>Submit</a>
+                </div>
+
+
+                <!--cancel-->
+                <div class="col s6 m6 l6">
+                    <a class="waves-effect waves-light btn-large col s12 m12 l12 red darken-4" ng-click="cancelFunction()" ng-disabled="registrationForm.$pristine"><i class="material-icons left">remove_circle</i>Cancel</a>
+                </div>
+            </div>
+
+    </div>
 

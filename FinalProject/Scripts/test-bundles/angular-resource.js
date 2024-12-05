@@ -1642,12 +1642,12 @@ describe('basic usage', function() {
     var currentGroup = 'students',
         Person = $resource('/Person/:group/:id', { group: function() { return currentGroup; }});
 
-    $httpBackend.expect('GET', '/Person/students/fedor').respond({id: 'fedor', email: 'f@f.com'});
+    $httpBackend.expect('GET', '/Person/students/fedor').respond({id: 'fedor', userEmail: 'f@f.com'});
 
     var fedor = Person.get({id: 'fedor'});
     $httpBackend.flush();
 
-    expect(fedor).toEqualData({id: 'fedor', email: 'f@f.com'});
+    expect(fedor).toEqualData({id: 'fedor', userEmail: 'f@f.com'});
   });
 
 
@@ -1659,21 +1659,21 @@ describe('basic usage', function() {
     });
 
     $httpBackend.expect('GET', '/Person/fedor').respond(
-        {id: 'fedor', email: 'f@f.com', count: 1});
+        {id: 'fedor', userEmail: 'f@f.com', count: 1});
 
     var fedor = Person.get();
     $httpBackend.flush();
 
-    expect(fedor).toEqualData({id: 'fedor', email: 'f@f.com', count: 1});
+    expect(fedor).toEqualData({id: 'fedor', userEmail: 'f@f.com', count: 1});
 
     $httpBackend.expect('POST', '/Person/fedor2').respond(
-        {id: 'fedor2', email: 'f2@f.com', count: 2});
+        {id: 'fedor2', userEmail: 'f2@f.com', count: 2});
 
     fedor.id = 'fedor2';
     fedor.$save();
     $httpBackend.flush();
 
-    expect(fedor).toEqualData({id: 'fedor2', email: 'f2@f.com', count: 2});
+    expect(fedor).toEqualData({id: 'fedor2', userEmail: 'f2@f.com', count: 2});
   });
 
 
@@ -1686,12 +1686,12 @@ describe('basic usage', function() {
         }
       });
 
-    $httpBackend.expect('GET', '/Person/students/fedor').respond({id: 'fedor', email: 'f@f.com'});
+    $httpBackend.expect('GET', '/Person/students/fedor').respond({id: 'fedor', userEmail: 'f@f.com'});
 
     var fedor = Person.fetch({id: 'fedor'});
     $httpBackend.flush();
 
-    expect(fedor).toEqualData({id: 'fedor', email: 'f@f.com'});
+    expect(fedor).toEqualData({id: 'fedor', userEmail: 'f@f.com'});
   });
 
 

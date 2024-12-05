@@ -250,7 +250,7 @@ ngTouch.factory('$swipe', [function() {
     <example module="ngSwipeLeftExample" deps="angular-touch.js" name="ng-swipe-left">
       <file name="index.html">
         <div ng-show="!showActions" ng-swipe-left="showActions = true">
-          Some list content, like an email in the inbox
+          Some list content, like an userEmail in the inbox
         </div>
         <div ng-show="showActions" ng-swipe-right="showActions = false">
           <button ng-click="reply()">Reply</button>
@@ -288,7 +288,7 @@ ngTouch.factory('$swipe', [function() {
     <example module="ngSwipeRightExample" deps="angular-touch.js" name="ng-swipe-right">
       <file name="index.html">
         <div ng-show="!showActions" ng-swipe-left="showActions = true">
-          Some list content, like an email in the inbox
+          Some list content, like an userEmail in the inbox
         </div>
         <div ng-show="showActions" ng-swipe-right="showActions = false">
           <button ng-click="reply()">Reply</button>

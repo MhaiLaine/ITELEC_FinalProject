@@ -698,7 +698,7 @@ angular.module('ngSanitize', [])
  *
  * @description
  * Finds links in text input and turns them into html links. Supports `http/https/ftp/sftp/mailto` and
- * plain email address links.
+ * plain userEmail address links.
  *
  * Requires the {@link ngSanitize `ngSanitize`} module to be installed.
  *
@@ -986,13 +986,13 @@ describe('linky', function() {
                     toEqual('<a href="mailto:me@example.com">me@example.com</a>');
     expect(linky('me@example.com')).
                     toEqual('<a href="mailto:me@example.com">me@example.com</a>');
-    expect(linky('send email to me@example.com, but')).
-      toEqual('send email to <a href="mailto:me@example.com">me@example.com</a>, but');
-    expect(linky('my email is "me@example.com"')).
-      toEqual('my email is &#34;<a href="mailto:me@example.com">me@example.com</a>&#34;');
+    expect(linky('send userEmail to me@example.com, but')).
+      toEqual('send userEmail to <a href="mailto:me@example.com">me@example.com</a>, but');
+    expect(linky('my userEmail is "me@example.com"')).
+      toEqual('my userEmail is &#34;<a href="mailto:me@example.com">me@example.com</a>&#34;');
   });
 
-  it('should handle quotes in the email', function() {
+  it('should handle quotes in the userEmail', function() {
     expect(linky('foo@"bar".com')).toEqual('<a href="mailto:foo@&#34;bar&#34;.com">foo@&#34;bar&#34;.com</a>');
   });
 

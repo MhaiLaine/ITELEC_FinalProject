@@ -1,7 +1,9 @@
-﻿using System;
+﻿using FinalProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
 
 namespace FinalProject.Controllers
@@ -41,15 +43,13 @@ namespace FinalProject.Controllers
         public ActionResult ManageFlashcardPage()
         {
             return View();
-        } public ActionResult StudyFlashcardsPage()
-        {
-            return View();
-        }
-
+        } 
+        
         public ActionResult StudyFlashcardsPage()
         {
             return View();
         }
+
 
     }
 }
