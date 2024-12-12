@@ -77,22 +77,22 @@
             According to RFC 3696 - a document by IETF (org that defines the guidelines and standards of Internet.),
             An userEmail address can have a total length of 320 characters. 64 characters for the local address before
             the @ (which counts as 1 character) and 255 characters for the FQDN (Fully Qualified Domain Name)*@
-            <div class="input-field col s6 m6 l6">
-                <i class="material-icons prefix">userEmail</i>
-                <input id="userEmail" name="userEmail" type="email" class="validate"
-                       ng-model="userEmail"
-                       ng-pattern="userEmailPattern"
-                       ng-maxlength="254"
-                       required>
-                <label for="userEmail">Email</label>
+                <div class="input-field col s6 m6 l6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="userEmail" name="userEmail" type="text" class="validate"
+                           ng-model="userEmail"
+                           ng-pattern="userEmailPattern"
+                           ng-maxlength="254"
+                           required>
+                    <label for="userEmail">Email</label>
 
-                <span class="helper-text" style="position: absolute; bottom: -1em; left: 0;"
-                      ng-if="(registrationForm.userEmail.$touched || registrationForm.userEmail.$dirty)">
-                    <span ng-if="registrationForm.userEmail.$error.required">userEmail is required.</span>
-                    <span ng-if="registrationForm.userEmail.$error.maxlength">userEmail must not exceed 254 characters.</span>
-                    <span ng-if="registrationForm.userEmail.$error.pattern">Please enter a valid userEmail address.</span>
-                </span>
-            </div>
+                    <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                          ng-if="(registrationForm.userEmail.$touched || registrationForm.userEmail.$dirty)">
+                        <span ng-if="registrationForm.userEmail.$error.required">Email is required.</span>
+                        <span ng-if="registrationForm.userEmail.$error.maxlength">Email must not exceed 254 characters.</span>
+                        <span ng-if="registrationForm.userEmail.$error.pattern">Please enter a valid email address.</span>
+                    </span>
+                </div>
 
 
             @*Password Form Field*@

@@ -6,7 +6,6 @@
 
 .descriptionContainer {
     margin-top: 16em;
-
 }
 
 .registrationDescription {
@@ -28,8 +27,6 @@
     font-weight: 700;
     line-height: normal;
 }
-
-
 
 body {
     background: url('assets/registration.gif');
@@ -60,7 +57,6 @@ body {
     font-weight: 700;
     line-height: normal;
 }
-
 /* HELPER TEXT */
 .input-field .helper-text {
     color: #ff5252 !important;
@@ -68,7 +64,6 @@ body {
     margin-top: 0.3em;
     display: block;
 }
-
     /* Inactive state: change helper text color to black */
     .input-field .helper-text:not(:focus-within) {
         color: black !important;
@@ -78,7 +73,6 @@ input:focus {
     border-bottom: 1px solid white !important; /* Change the bottom border to blue */
     box-shadow: 0 1px 0 0 white !important; /* Change the shadow effect to blue */
 }
-
 /* Colors when the input is valid */
 input.valid {
     border-bottom: 1px solid white !important; /* Change valid bottom border to blue */
@@ -89,84 +83,41 @@ input {
     border-bottom: 1px solid black !important; /* Change valid bottom border to blue */
     box-shadow: 0 1px 0 0 black !important; /* Change valid shadow effect to blue */
 }
-
     /* Label color when the input is focused or valid */
     input:focus + label, input.valid + label {
         color: white !important; /* Change label text color to blue */
         font-weight: 600;
     }
-
 /* Inactive state for the label (when the input is not focused or valid) */
 .input-field label {
     color: black !important; /* Label color when inactive */
     font-weight: 600; /* Font weight when inactive */
 }
-
 /* Change the icon color when the input field is focused */
 .input-field .material-icons {
     color: black !important; /* Default icon color to black */
 }
-
 /* Change icon color when input is focused */
 .input-field input:focus ~ .material-icons {
     color: white !important; /* White color on focus */
 }
-
 /* Add active class to the icon when the field is clicked */
 .input-field .material-icons.active {
     color: white !important; /* Icon stays white when active */
 }
-
 /* Ensure icon stays white while the input field is active */
 input:focus ~ .material-icons.active, input.valid ~ .material-icons.active {
     color: white !important; /* White when input is active or valid */
 }
-
 /* When the input is focused, apply color to the icon */
 .input-field input:focus ~ .material-icons {
     color: white !important;
 }
-
 /* Apply white color when the input is valid */
 .input-field input.valid ~ .material-icons {
     color: white !important;
 }
-
 /* When the input field is valid, text color changes to white */
 input:valid {
     color: white !important; /* Change text color to white */
 }
-
-
-
-
-/*additional codes for userEmail form field*/
-
-/* Set text color for userEmail input field */
-input[type="userEmail"] {
-    color: white !important;
-}
-
-    /* Ensure placeholder text is also white */
-    input[type="userEmail"]::placeholder {
-        color: white !important;
-        opacity: 0.7; /* Adjust transparency if needed */
-    }
-
-    /* Override the default behavior for focused userEmail input */
-    input[type="userEmail"]:focus {
-        color: white !important;
-        border-bottom: 1px solid white !important; /* Change the bottom border to white */
-        box-shadow: 0 1px 0 0 white !important; /* Add white shadow */
-    }
-
-    /* For valid userEmail input */
-    input[type="userEmail"].valid {
-        color: white !important;
-        border-bottom: 1px solid white !important;
-        box-shadow: 0 1px 0 0 white !important;
-    }
-
-    input[type="userEmail"] {
-        color: white !important;
-    }

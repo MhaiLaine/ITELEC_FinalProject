@@ -160,6 +160,9 @@
     };
 
 
+    $(document).ready(function () {
+        M.updateTextFields(); // Reinitialize text fields
+    });
 
 
 });
