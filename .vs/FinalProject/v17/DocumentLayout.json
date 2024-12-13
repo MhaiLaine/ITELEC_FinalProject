@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\shared\\_registrationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_registrationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angular.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angular.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,19 +111,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Controller.js",
-              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-12T07:48:02.905Z",
+              "Title": "_RegistrationLayout.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:07:32.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "angular.js",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\angular.js",
+              "RelativeDocumentMoniker": "FinalProject\\Scripts\\angular.js",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\angular.js",
+              "RelativeToolTip": "FinalProject\\Scripts\\angular.js",
+              "ViewState": "AgIAAAgCAAAAAAAAAAAAAC0CAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-12T07:54:38.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Login.css",
@@ -128,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
@@ -141,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "user_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_model.cs",
@@ -154,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "admin_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_model.cs",
@@ -166,33 +187,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RegistrationPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAADwv1QAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv04AAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T16:45:06.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Controller.js",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-12T07:48:02.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Registration.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Registration.css",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeToolTip": "FinalProject\\Content\\Registration.css",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-12T07:07:25.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FinalProjectModel.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\FinalProjectModel.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\FinalProjectModel.cs",
@@ -205,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Web.config",
               "RelativeDocumentMoniker": "FinalProject\\Web.config",
@@ -218,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "deck_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_model.cs",
@@ -230,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "FinalProjectContext.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\FinalProjectContext.cs",
@@ -242,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "flashcard_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_model.cs",
@@ -254,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Admin_User.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\Admin_User.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Admin_User.cshtml",
@@ -266,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
@@ -278,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "user_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_map.cs",
@@ -290,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "flashcard_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_map.cs",
@@ -302,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "deck_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_map.cs",
@@ -314,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "admin_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_map.cs",
@@ -326,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "_ManageFlashcardLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
@@ -338,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Service.js",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js",
               "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Service.js",
@@ -350,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "manageflashcards.css",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\manageflashcards.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\manageflashcards.css",
@@ -362,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "MainMenu.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
