@@ -11,7 +11,6 @@ namespace FinalProject.Models
         public int deckID { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
-
         public string username { get; set; }
         public int userPhone { get; set; }
         public string userEmail { get; set; }

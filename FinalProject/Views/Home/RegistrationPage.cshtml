@@ -74,25 +74,25 @@
             </div>
 
             @*userEmail Form Field
-            According to RFC 3696 - a document by IETF (org that defines the guidelines and standards of Internet.),
-            An userEmail address can have a total length of 320 characters. 64 characters for the local address before
-            the @ (which counts as 1 character) and 255 characters for the FQDN (Fully Qualified Domain Name)*@
-                <div class="input-field col s6 m6 l6">
-                    <i class="material-icons prefix">email</i>
-                    <input id="userEmail" name="userEmail" type="text" class="validate"
-                           ng-model="userEmail"
-                           ng-pattern="userEmailPattern"
-                           ng-maxlength="254"
-                           required>
-                    <label for="userEmail">Email</label>
+                According to RFC 3696 - a document by IETF (org that defines the guidelines and standards of Internet.),
+                An userEmail address can have a total length of 320 characters. 64 characters for the local address before
+                the @ (which counts as 1 character) and 255 characters for the FQDN (Fully Qualified Domain Name)*@
+            <div class="input-field col s6 m6 l6">
+                <i class="material-icons prefix">email</i>
+                <input id="userEmail" name="userEmail" type="text" class="validate"
+                       ng-model="userEmail"
+                       ng-pattern="userEmailPattern"
+                       ng-maxlength="254"
+                       required>
+                <label for="userEmail">Email</label>
 
-                    <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
-                          ng-if="(registrationForm.userEmail.$touched || registrationForm.userEmail.$dirty)">
-                        <span ng-if="registrationForm.userEmail.$error.required">Email is required.</span>
-                        <span ng-if="registrationForm.userEmail.$error.maxlength">Email must not exceed 254 characters.</span>
-                        <span ng-if="registrationForm.userEmail.$error.pattern">Please enter a valid email address.</span>
-                    </span>
-                </div>
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;"
+                      ng-if="(registrationForm.userEmail.$touched || registrationForm.userEmail.$dirty)">
+                    <span ng-if="registrationForm.userEmail.$error.required">Email is required.</span>
+                    <span ng-if="registrationForm.userEmail.$error.maxlength">Email must not exceed 254 characters.</span>
+                    <span ng-if="registrationForm.userEmail.$error.pattern">Please enter a valid email address.</span>
+                </span>
+            </div>
 
 
             @*Password Form Field*@
@@ -141,23 +141,29 @@
 </div>
 
 
-    <!--Third Row: Button Field-->
-    <div class="row">
+<!--Third Row: Button Field-->
+<div class="row">
 
-            <!--submit-->
-                    <div class="col s4 m4 l4" style="margin-top: 1em;"></div>
+    <!--submit-->
+    <div class="col s4 m4 l4" style="margin-top: 1em;"></div>
 
-            <div class="col s4 m4 l4" style="margin-top: 1em;">
-                <div class="col s6 m6 l6">
-                    <a class="waves-effect waves-light btn-large col s12 m12 l12 green darken-1" ng-click="submitRegistration()" ng-disabled="registrationForm.$invalid"><i class="material-icons left">check_circle</i>Submit</a>
-                </div>
+    <div class="col s4 m4 l4" style="margin-top: 1em;">
+        <div class="col s6 m6 l6">
+            <a class="waves-effect waves-light btn-large col s12 m12 l12 green darken-1" ng-click="submitRegistration()" ng-disabled="registrationForm.$invalid"><i class="material-icons left">check_circle</i>Submit</a>
+        </div>
 
 
-                <!--cancel-->
-                <div class="col s6 m6 l6">
-                    <a class="waves-effect waves-light btn-large col s12 m12 l12 red darken-4" ng-click="cancelFunction()" ng-disabled="registrationForm.$pristine"><i class="material-icons left">remove_circle</i>Cancel</a>
-                </div>
-            </div>
-
+        <!--cancel-->
+        <div class="col s6 m6 l6">
+            <a class="waves-effect waves-light btn-large col s12 m12 l12 red darken-4" ng-click="cancelFunction()" ng-disabled="registrationForm.$pristine"><i class="material-icons left">remove_circle</i>Cancel</a>
+        </div>
     </div>
+
+</div>
+
+
+<div class="row">
+    <div class="valign-wrapper" style="min-height: 100vh;" ng-init="loadUsers()"> </div>
+</div>
+
 

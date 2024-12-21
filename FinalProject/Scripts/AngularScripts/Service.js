@@ -1,11 +1,28 @@
 ﻿app.service("FinalProjectService", function ($http) {
-    this.threeFunc = function (registrationData) {
+
+    this.submitRegistration = function (registrationData) {
         var response = $http({
             method: "post",
-            url: "/Home/ThreeFunction", //kung anong function tatawagin sa controller
+            url: "/Home/AddUser", // Endpoint to add user to the database in HomeController.cs
             data: registrationData
         });
         return response;
-    }
+    };
 
+    this.login = function (loginData) {
+        var response = $http({
+            method: "post",
+            url: "/Home/ValidateUser", // Endpoint to validate user credentials
+            data: loginData
+        });
+        return response;
+    };
+
+    this.loadUsers = function () {
+        var response = $http({
+            method: "get",
+            url: "/Home/LoadUsers" // Endpoint to load all users
+        });
+        return response;
+    };
 });

@@ -10,6 +10,8 @@
     font-style: italic;
     font-weight: 800;
     font-size: 3em;
+    padding-left: 10px !important;
+    margin-top: 1.2em;
 }
 
 .welcomeDescription {
@@ -21,6 +23,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
+    margin-top: -10px;
 }
 
 .bold-word {

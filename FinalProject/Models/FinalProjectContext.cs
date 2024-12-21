@@ -19,7 +19,7 @@ namespace FinalProject.Models
             Database.SetInitializer<FinalProjectContext>(null);
         }
 
-        public FinalProjectContext() : base("Name-spellcardsdb") { } //insert name ng database
+        public FinalProjectContext() : base("Name = spellcardsdb") { } //insert name ng database
                                                                   //name-companydb here is 
 
         public virtual DbSet<admin_tbl_model> admin_tbl { get; set; }

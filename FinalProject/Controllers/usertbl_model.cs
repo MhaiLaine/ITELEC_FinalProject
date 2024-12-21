@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FinalProject.Controllers
+namespace FinalProject.Models
 {
-    public class FinalProjectModel
+    public class usertbl_model
     {
         public int userID { get; set; }
         public int deckID { get; set; }
@@ -15,6 +15,8 @@ namespace FinalProject.Controllers
         public int userPhone { get; set; }
         public string userEmail { get; set; }
         public string userPassword { get; set; }
+        public DateTime userCreated { get; set; }
+        public DateTime userUpdated { get; set; }
 
 
     }

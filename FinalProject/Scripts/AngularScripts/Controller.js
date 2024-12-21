@@ -1,4 +1,4 @@
-﻿app.controller("FinalProjectController", function ($scope, $window) {
+﻿app.controller("FinalProjectController", function ($scope, FinalProjectService, $window, $http) {
 
     $scope.userEmailPattern = /^[a-zA-Z0-9._%+-]{1,64}@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
@@ -10,133 +10,77 @@
         audio.play().catch(err => console.log('Autoplay blocked:', err));
     });
 
-    // 1. Main menu 
-        $scope.redirectToRegistration = function () {
-            $window.location.href = "/Home/RegistrationPage";
-        };
+    // Main menu
+    $scope.redirectToRegistration = function () {
+        $window.location.href = "/Home/RegistrationPage";
+    };
 
-        $scope.redirectToLogIn = function () {
-            $window.location.href = "/Home/LogInPage";
-        };
+    $scope.redirectToLogIn = function () {
+        $window.location.href = "/Home/LogInPage";
+    };
 
-
-    // 2. Registration Page
+    // Registration Page
         $scope.submitRegistration = function () {
             var registrationData = {
-                FirstName: $scope.firstName,
-                LastName: $scope.lastName,
+                firstName: $scope.firstName,
+                lastName: $scope.lastName,
                 userEmail: $scope.userEmail,
                 userPhone: $scope.userPhone,
-                Username: $scope.username,
-                Password: $scope.userPassword
+                username: $scope.firstName + '.' + $scope.lastName, // Auto-generate username
+                userPassword: $scope.userPassword
             };
 
-            //search info if already existing
-            // Search (any name). (key value)
-            //querying through the array / searching
-            var newUserSearch = userCredentials.find(searchUser =>
-                searchUser.FirstName === $scope.firstName &&
-                searchUser.LastName === $scope.lastName ||
-                searchUser.username === $scope.username
-            );
+            console.log('Registration Data:', registrationData); // Debugging step
 
-            //need iverify na ung next inputs ay walang katulad sa mga existing values previously stored sa array
-            //if may laman / katulad di siya undefined
+            // Ensure $http service is injected in your controller if not already.
+            $http.post('/Home/AddUser', registrationData)
+                .then(function (response) {
+                    console.log('API Response:', response); // Debugging step
 
-            //if undefined - push data in array
-            if (newUserSearch === undefined) {
-                userCredentials.push(registrationData);
-
-                ////convert array to JSON string para sa session Storage ng browser
-                //var sessionString = JSON.stringify(userCredentials);
-
-                ////after magsave sa array -> store in temporary browser storage
-                //sessionStorage.setItem("credentials", sessionString); //key = "credentials" ; yung converted string yung value
-
-
-                var postData = RegistrationApplicationService.threeFunc(registrationData);
-                postData.then(function (ReturnedData) {
-                    var userFirstName = ReturnedData.data.FirstName;
-                    var userLastName = ReturnedData.data.LastName;
-                    var useruserEmail = ReturnedData.data.userEmail;
-                    var useruserPhone = ReturnedData.data.userPhone;
-                    var userPassword = ReturnedData.data.Password;
-                    var userUsername = ReturnedData.data.username;
-                });
-
-                // Swal.fire shows login credentials
-                Swal.fire({
-                    title: "Login Credentials",
-                    html: `Username: ${registrationData.username} <br> Password: ${registrationData.Password}`,
-                    icon: "success",
-                    timer: 8000,
-                    timerProgressBar: true,
-                    didOpen: () => {
-                        Swal.showLoading();
+                    if (response.data.success) {
+                        Swal.fire('Registration Successful!', '', 'success').then(() => {
+                            // Redirect to login page after success
+                            $window.location.href = "/Home/LogInPage";
+                        });
+                    } else {
+                        Swal.fire('Error saving user data', response.data.message, 'error');
                     }
-                }).then((result) => {
-                    // Redirect to Login after Swal.fire closes 
-                    if (result.dismiss === Swal.DismissReason.timer || result.isConfirmed) {
-                        window.location.href = "/Home/LogInPage";
-                    }
+                })
+                .catch(function (error) {
+                    console.error('Error saving user data:', error);
+                    Swal.fire('Error saving user data', '', 'error');
                 });
-
-            } else {
-                Swal.fire({
-                    icon: "error",
-                    title: "Error",
-                    text: "User already exists!",
-                });
-                $scope.cancelFunction();
-            }
         };
 
 
-        $scope.cancelFunction = function () {
-            $scope.firstName = null;
-            $scope.lastName = null;
-            $scope.userEmail = null;
-            $scope.userPhone = null;
-            $scope.username = null;
-            $scope.userPassword = null;
-        }
+        // Login Function
+    $scope.loginFunction = function () {
+        var loginData = {
+            username: $scope.username,
+            password: $scope.userPassword
+        };
 
+        // Log the login data for debugging
+        console.log('Login Data:', loginData);
 
-
- 
-
-    // 3. Login Page
-        $scope.loginFunction = function () {
-        // Get credentials from sessionStorage
-        var storedCredentials = sessionStorage.getItem("credentials");
-
-        /* If credentials were saved in sessionStorage, they are retrieved then converted back to array and stored in userCredentials.
-        If not, userCredentials is an empty array, meaning no users are registered yet.*/
-        var userCredentials = storedCredentials ? JSON.parse(storedCredentials) : [];
-
-        // Retrieve username and password input
-        var enteredusername = $scope.username;
-        var enteredPassword = $scope.userPassword;
-
-        // Find the user in the credentials array
-        var userExists = userCredentials.find(userSearch =>
-            userSearch.username === enteredusername && // Use entered username
-            userSearch.Password === enteredPassword // Use entered password
-        );
-
-        if (userExists) {
-            // If user is found, proceed to dashboard or home page
-            window.location.href = "/Home/Dashboard1";
-        } else {
-            // If no match, display error message
-            Swal.fire({
-                icon: "error",
-                title: "Error",
-                text: "Invalid Username or Password!",
-            });
-            $scope.dataLoading = false;
-        }
+        // Call the login service to validate credentials
+        FinalProjectService.login(loginData).then(function (response) {
+            // Handle success or failure based on the response from the server
+            if (response.data.success) {
+                Swal.fire('Login Successful!', '', 'success').then(() => {
+                    // Redirect to dashboard if login is successful
+                    $window.location.href = "/Home/Dashboard1";
+                });
+            } else {
+                // Show the error message if login fails
+                Swal.fire(response.data.message, '', 'error');
+            }
+        }).catch(function (error) {
+            console.error('Error during login:', error);
+            Swal.fire('Error during login', '', 'error');
+        });
     };
+
 
 
     // 4.Welcome Page
@@ -160,9 +104,22 @@
     };
 
 
-    $(document).ready(function () {
-        M.updateTextFields(); // Reinitialize text fields
-    });
+
+
+    // load chart
+    //$scope.loadChartFunc = function () {
+    //    angular.module("app", ["chart.js"]).controller("BarCtrl", function ($scope) {
+    //        $scope.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+    //        $scope.series = ['Series A', 'Series B'];
+
+    //        $scope.data = [
+    //            [65, 59, 80, 81, 56, 55, 40],
+    //            [28, 48, 40, 19, 86, 27, 90]
+    //        ];
+    //    });
+    //};
 
 
 });
+
+
