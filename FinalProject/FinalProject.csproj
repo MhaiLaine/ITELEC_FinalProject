@@ -163,9 +163,11 @@
   <ItemGroup>
     <Content Include="Content\Admin.css" />
     <Content Include="Content\assets\book.png" />
+    <Content Include="Content\assets\card.png" />
     <Content Include="Content\assets\cardbg.png" />
     <Content Include="Content\assets\cardbg1.png" />
     <Content Include="Content\assets\CardLogo.png" />
+    <Content Include="Content\assets\dashboard.png" />
     <Content Include="Content\assets\deck1.png" />
     <Content Include="Content\assets\deck2.png" />
     <Content Include="Content\assets\deck3.png" />
@@ -173,6 +175,7 @@
     <Content Include="Content\assets\deckbg.png" />
     <Content Include="Content\assets\flashcard.png" />
     <Content Include="Content\assets\flashcard_horizontal.png" />
+    <Content Include="Content\assets\folder.png" />
     <Content Include="Content\assets\for_mainmenu.png" />
     <Content Include="Content\assets\login.gif" />
     <Content Include="Content\assets\login2.gif" />
@@ -186,6 +189,7 @@
     <Content Include="Content\assets\overview-icon.svg" />
     <Content Include="Content\assets\registration.gif" />
     <Content Include="Content\assets\TitleLogo.png" />
+    <Content Include="Content\assets\user.png" />
     <Content Include="Content\assets\view1.gif" />
     <Content Include="Content\assets\view2.gif" />
     <Content Include="Content\assets\view2_higher.gif" />
@@ -1061,6 +1065,9 @@
     <Content Include="Views\Home\StudyFlashcardsPage.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
+    <Content Include="Views\Home\AdminUserAcc.cshtml" />
+    <Content Include="Views\Home\AdminDecks.cshtml" />
+    <Content Include="Views\Home\AdminFlashcards.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
