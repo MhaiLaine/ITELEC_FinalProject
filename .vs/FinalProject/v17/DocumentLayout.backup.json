@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\ITELEC_FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\flashcard_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\models\\flashcard_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\flashcard_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -125,6 +113,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_studyflashcardslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_studyflashcardslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\asp_projects\\itelec_finalproject\\finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,20 +138,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminUserAcc.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T11:59:13.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 29,
               "Title": "AdminFlashcards.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
@@ -159,12 +146,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T11:59:11.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T11:59:11.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 30,
               "Title": "AdminDecks.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
@@ -172,12 +158,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T11:59:09.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T11:59:09.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "flashcard_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_model.cs",
@@ -185,12 +170,11 @@
               "RelativeToolTip": "FinalProject\\Models\\flashcard_tbl_model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T06:28:38.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T06:28:38.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "flashcard_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_map.cs",
@@ -203,20 +187,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ManageFlashcardPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T02:37:00.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
+              "Title": "AdminUserAcc.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T11:59:13.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ManageFlashcardLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
@@ -228,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "manageflashcards.css",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\manageflashcards.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\manageflashcards.css",
@@ -240,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "studyflashcards.css",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\studyflashcards.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\studyflashcards.css",
@@ -252,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "_RegistrationLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
@@ -264,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "RegistrationPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
@@ -276,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "MainMenu.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
@@ -288,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "LogInPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\LogInPage.cshtml",
@@ -300,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "WelcomePage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\WelcomePage.cshtml",
@@ -312,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "_MainMenuLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
@@ -324,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "Dashboard2.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Dashboard2.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard2.cshtml",
@@ -336,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "Dashboard1.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
@@ -348,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Web.config",
               "RelativeDocumentMoniker": "FinalProject\\Web.config",
@@ -361,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "FinalProjectContext.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\FinalProjectContext.cs",
@@ -373,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "deck_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_map.cs",
@@ -385,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "deck_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_model.cs",
@@ -397,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "StudyFlashcardsPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
@@ -409,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "_StudyFlashcardsLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
@@ -421,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "admin_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_model.cs",
@@ -433,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "user_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_model.cs",
@@ -445,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "angular.js",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\angular.js",
               "RelativeDocumentMoniker": "FinalProject\\Scripts\\angular.js",
@@ -457,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "Registration.css",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Registration.css",
               "RelativeDocumentMoniker": "FinalProject\\Content\\Registration.css",
@@ -469,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "Admin_User.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Admin_User.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Admin_User.cshtml",
@@ -481,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
@@ -493,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "user_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_map.cs",
@@ -505,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "admin_tbl_map.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_map.cs",
