@@ -68,7 +68,7 @@ namespace FinalProject.Controllers
                     firstName = registrationData.firstName,
                     lastName = registrationData.lastName,
                     username = registrationData.username,
-                    userPhone = registrationData.userPhone.ToString(),
+                    userPhone = registrationData.userPhone,
                     userEmail = registrationData.userEmail,
                     userPassword = registrationData.userPassword
                 };

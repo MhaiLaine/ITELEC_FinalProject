@@ -8,8 +8,8 @@ namespace FinalProject.Controllers
 {
     public class userCONTROLLER
     {
-        //public int userID { get; set; }
-        //public int deckID { get; set; }
+        public int userID { get; set; }
+        public int deckID { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string username { get; set; }
