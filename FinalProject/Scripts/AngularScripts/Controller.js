@@ -20,67 +20,60 @@
     };
 
     // Registration Page
-        $scope.submitRegistration = function () {
-            var registrationData = {
-                firstName: $scope.firstName,
-                lastName: $scope.lastName,
-                userEmail: $scope.userEmail,
-                userPhone: $scope.userPhone,
-                username: $scope.firstName + '.' + $scope.lastName, // Auto-generate username
+            $scope.submitRegistration = function () {
+                var registrationData = {
+                    firstName: $scope.firstName,
+                    lastName: $scope.lastName,
+                    userEmail: $scope.userEmail,
+                    userPhone: $scope.userPhone,
+                    username: $scope.username,
+                    userPassword: $scope.userPassword
+                };
+
+                FinalProjectService.submitRegistration(registrationData).then(function (response) {
+                    if (response.data.success) {
+                        Swal.fire('Registration Successful!', '', 'success').then(() => {
+                            $window.location.href = "/Home/LogInPage"; // Redirect to login page
+                        });
+                    } else {
+                        Swal.fire('Error!', response.data.message || 'Registration failed.', 'error');
+                    }
+                }, function (error) {
+                    Swal.fire('Error!', error.message || 'An unexpected error occurred.', 'error');
+                });
+            };
+
+
+
+        $scope.loginFunction = function () {
+            var loginData = {
+                username: $scope.username,
                 userPassword: $scope.userPassword
             };
 
-            console.log('Registration Data:', registrationData); // Debugging step
-
-            // Ensure $http service is injected in your controller if not already.
-            $http.post('/Home/AddUser', registrationData)
-                .then(function (response) {
-                    console.log('API Response:', response); // Debugging step
-
-                    if (response.data.success) {
-                        Swal.fire('Registration Successful!', '', 'success').then(() => {
-                            // Redirect to login page after success
-                            $window.location.href = "/Home/LogInPage";
-                        });
-                    } else {
-                        Swal.fire('Error saving user data', response.data.message, 'error');
-                    }
-                })
-                .catch(function (error) {
-                    console.error('Error saving user data:', error);
-                    Swal.fire('Error saving user data', '', 'error');
-                });
+            FinalProjectService.loginFunction(loginData).then(function (response) {
+                if (response.data.success) {
+                    Swal.fire('Login Successful!', '', 'success').then(() => {
+                        $window.location.href = "/Home/WelcomePage"; // Redirect to welcome page
+                    });
+                } else {
+                    Swal.fire('Error!', response.data.message || 'Invalid credentials.', 'error');
+                }
+            }, function (error) {
+                Swal.fire('Error!', error.message || 'An unexpected error occurred.', 'error');
+            });
         };
 
 
-        // Login Function
-    $scope.loginFunction = function () {
-        var loginData = {
-            username: $scope.username,
-            password: $scope.userPassword
-        };
 
-        // Log the login data for debugging
-        console.log('Login Data:', loginData);
-
-        // Call the login service to validate credentials
-        FinalProjectService.login(loginData).then(function (response) {
-            // Handle success or failure based on the response from the server
-            if (response.data.success) {
-                Swal.fire('Login Successful!', '', 'success').then(() => {
-                    // Redirect to dashboard if login is successful
-                    $window.location.href = "/Home/Dashboard1";
-                });
-            } else {
-                // Show the error message if login fails
-                Swal.fire(response.data.message, '', 'error');
-            }
-        }).catch(function (error) {
-            console.error('Error during login:', error);
-            Swal.fire('Error during login', '', 'error');
-        });
-    };
-
+    $scope.cancelFunction = function () {
+        $scope.firstName = null;
+        $scope.lastName = null;
+        $scope.userEmail = null;
+        $scope.userPhone = null;
+        $scope.username = null;
+        $scope.userPassword = null;
+    }
 
 
     // 4.Welcome Page

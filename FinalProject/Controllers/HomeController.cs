@@ -1,5 +1,4 @@
 ﻿using FinalProject.Models;
-using Org.BouncyCastle.Crypto.Generators;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
@@ -60,58 +59,44 @@ namespace FinalProject.Controllers
 
 
         // USERS CRUD
-        public JsonResult AddUser(user_tbl_model registrationData)
+        public JsonResult AddUser(userCONTROLLER registrationData)
         {
-            try
+            using (var db = new FinalProjectContext())
             {
-                using (var db = new FinalProjectContext())
+                var userData = new user_tbl_model
                 {
-                    var userData = new user_tbl_model()
-                    {
-                        deckID = registrationData.deckID,
-                        firstName = registrationData.firstName,
-                        lastName = registrationData.lastName,
-                        username = registrationData.username,
-                        userPhone = registrationData.userPhone,
-                        userEmail = registrationData.userEmail,
-                        userPassword = registrationData.userPassword,
-                        userCreated = DateTime.Now,
-                        userUpdated = DateTime.Now
-                    };
+                    firstName = registrationData.firstName,
+                    lastName = registrationData.lastName,
+                    username = registrationData.username,
+                    userPhone = registrationData.userPhone.ToString(),
+                    userEmail = registrationData.userEmail,
+                    userPassword = registrationData.userPassword
+                };
 
-                    db.user_tbl.Add(userData);
-                    db.SaveChanges();
-                    return Json(new { success = true }); // Success response
+                db.user_tbl.Add(userData);
+                db.SaveChanges();
 
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return Json(new { success = false, message = "Error saving user data" }); // Error response
+                return Json(new { success = true });
             }
         }
 
-        public JsonResult ValidateUser(usertbl_model loginData)
-        {
-            // Debugging log to see what data is received from JavaScript
-            Console.WriteLine("Username: " + loginData.username);
-            Console.WriteLine("Password: " + loginData.userPassword);
 
+        public JsonResult LoginUser(userCONTROLLER loginData)
+        {
             using (var db = new FinalProjectContext())
             {
-                // Check if the username and password are correct
-                var user = db.user_tbl.FirstOrDefault(u => u.username == loginData.username && u.userPassword == loginData.userPassword);
+                var user = db.user_tbl
+                    .Where(u => (u.username == loginData.username && u.userPassword == loginData.userPassword))
+                    .FirstOrDefault();
 
                 if (user != null)
                 {
-                    // Return a success response with user data if valid
-                    return Json(new { success = true, user = user }, JsonRequestBehavior.AllowGet);
+                    Session["username"] = user.username;
+                    return Json(new { success = true, firstName = user.firstName });
                 }
                 else
                 {
-                    // Return an error response if user is not found
-                    return Json(new { success = false, message = "Invalid credentials" }, JsonRequestBehavior.AllowGet);
+                    return Json(new { success = false, message = "Invalid username or password." });
                 }
             }
         }
@@ -119,7 +104,7 @@ namespace FinalProject.Controllers
 
 
 
-        public void UpdateUser(user_tbl_model registrationData)
+        public void UpdateUser(userCONTROLLER registrationData)
         {
             using (var db = new FinalProjectContext())
             {
@@ -130,41 +115,40 @@ namespace FinalProject.Controllers
                 }
                 else
                 {
-                    userID.userUpdated= DateTime.Now;
                     db.user_tbl.AddOrUpdate(userID);
                     db.SaveChanges();
                 }
             }
         }
 
-        public JsonResult loadUsers()
-        {
-            using (var db = new FinalProjectContext())
-            {
-                var userData = (from uData in db.user_tbl
-                               join dData in db.deck_tbl on uData.userID equals dData.deckID
-                               join fData in db.flashcard_tbl on uData.userID equals fData.flashcardID
-                               select new { uData, dData, fData}).ToList();
+        //public JsonResult loadUsers()
+        //{
+        //    using (var db = new FinalProjectContext())
+        //    {
+        //        var userData = (from uData in db.user_tbl
+        //                       join dData in db.deck_tbl on uData.userID equals dData.deckID
+        //                       join fData in db.flashcard_tbl on uData.userID equals fData.flashcardID
+        //                       select new { uData, dData, fData}).ToList();
 
-                return Json(userData, JsonRequestBehavior.AllowGet);
-            }
-        }
+        //        return Json(userData, JsonRequestBehavior.AllowGet);
+        //    }
+        //}
 
-        public ActionResult Login(user_tbl_model model)
-        {
-            using (var db = new FinalProjectContext()) // Ensure db is declared and initialized
-            {
-                var user = db.user_tbl.FirstOrDefault(u => u.username == model.username && u.userPassword == model.userPassword);
-                if (user != null)
-                {
-                    return Json(new { success = true });
-                }
-                else
-                {
-                    return Json(new { success = false });
-                }
-            }
-        }
+        //public ActionResult Login(user_tbl_model model)
+        //{
+        //    using (var db = new FinalProjectContext()) // Ensure db is declared and initialized
+        //    {
+        //        var user = db.user_tbl.FirstOrDefault(u => u.username == model.username && u.userPassword == model.userPassword);
+        //        if (user != null)
+        //        {
+        //            return Json(new { success = true });
+        //        }
+        //        else
+        //        {
+        //            return Json(new { success = false });
+        //        }
+        //    }
+        //}
 
 
         /* CHART/S */
