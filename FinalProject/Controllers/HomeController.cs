@@ -56,6 +56,20 @@ namespace FinalProject.Controllers
             return View();
         }
 
+        public ActionResult AdminUserAcc()
+        {
+            return View();
+        }
+
+        public ActionResult AdminDecks()
+        {
+            return View();
+        }
+
+        public ActionResult AdminFlashcards()
+        {
+            return View();
+        }
 
 
         // USERS CRUD
@@ -102,8 +116,6 @@ namespace FinalProject.Controllers
         }
 
 
-
-
         public void UpdateUser(userCONTROLLER registrationData)
         {
             using (var db = new FinalProjectContext())
@@ -122,18 +134,18 @@ namespace FinalProject.Controllers
             }
         }
 
-        //public JsonResult loadUsers()
-        //{
-        //    using (var db = new FinalProjectContext())
-        //    {
-        //        var userData = (from uData in db.user_tbl
-        //                       join dData in db.deck_tbl on uData.userID equals dData.deckID
-        //                       join fData in db.flashcard_tbl on uData.userID equals fData.flashcardID
-        //                       select new { uData, dData, fData}).ToList();
+        public JsonResult loadUsers()
+        {
+            using (var db = new FinalProjectContext())
+            {
+                var userData = (from uData in db.user_tbl
+                                join dData in db.deck_tbl on uData.userID equals dData.deckID
+                                join fData in db.flashcard_tbl on uData.userID equals fData.flashcardID
+                                select new { uData, dData, fData }).ToList();
 
-        //        return Json(userData, JsonRequestBehavior.AllowGet);
-        //    }
-        //}
+                return Json(userData, JsonRequestBehavior.AllowGet);
+            }
+        }
 
         //public ActionResult Login(user_tbl_model model)
         //{
