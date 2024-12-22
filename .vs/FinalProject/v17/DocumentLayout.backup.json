@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -34,37 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "user_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_model.cs",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
               "RelativeToolTip": "FinalProject\\Models\\user_tbl_model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T02:40:11.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T02:38:40.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "userCONTROLLER.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\userCONTROLLER.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\userCONTROLLER.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegistrationPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",

@@ -115,6 +115,7 @@ namespace FinalProject.Controllers
                 }
                 else
                 {
+                    //userID.userUpdated= DateTime.Now;
                     db.user_tbl.AddOrUpdate(userID);
                     db.SaveChanges();
                 }
