@@ -1,73 +1,233 @@
-﻿body {
-    font-family: Garamond, sans-serif;
-    background-color: #f9f9f9;
+﻿/* Apply "The Seasons" font globally */
+body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('assets/view1.gif'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    margin: 0;
-    height: 100vh; 
-}
-
-
-.container {
-    padding: 40px; 
-    width: 100%;
-    margin: 0 auto; 
-    background-color: rgba(255, 255, 255, 0.8); 
-    border-radius: 8px;
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
+    min-height: 100vh;
+    background: #000 url('/Content/assets/view1.gif') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
+    font-family: 'the-seasons', system-ui;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.flashcard {
-    background-color: rgba(255, 255, 255, 0.8); 
-    border-radius: 8px;
-    padding: 25px;
-    margin-bottom: 20px; 
-    box-sizing: border-box; 
+/* Flashcard container */
+.flashcard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
+/* Title */
+.page-title {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    outline: none;
+}
 
-    .flashcard textarea {
-        width: 100%; 
-        height: 150px; 
-        padding: 15px; 
-        font-size: 16px; 
-        border-radius: 8px; 
-        border: 2px solid #ccc; 
-        margin-bottom: 10px; 
-        box-sizing: border-box; 
+    .page-title:focus {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     }
 
-       button {
-    padding: 12px 20px; 
-    font-size: 16px; 
-    margin-top: 20px; 
-    border-radius: 8px; 
+/* Layout */
+.content-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: rgba(169, 169, 169, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    height: 100%;
+}
+
+/* Sidebar buttons */
+.sidebar-button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: 'the-seasons', system-ui;
+}
+
+    .sidebar-button:hover {
+        background: #f0f0f0;
+    }
+
+/* Main content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Flashcard sections */
+.flashcard-section {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .flashcard-section:hover {
+        transform: scale(1); /* Reset size to normal on hover */
+    }
+
+.flashcard-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: white;
     cursor: pointer;
 }
 
-#add-card {
-    background-color: #007bff;
-    color: white;
+.arrow {
+    margin-right: 0.5rem;
 }
 
-#save-cards {
-    background-color: #28a745;
-    color: white;
+.flashcard-header h2 {
+    font-size: 1.8rem;
 }
 
-button:hover {
-    opacity: 0.9;
+.flashcard-section .flashcard-header h3 {
+    font-size: 1.5rem;
+}
+
+
+.close-button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+}
+
+.flashcard-content {
+    padding: 1rem;
+}
+
+.flashcard-sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.flashcard-side {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.flashcard-input {
+    width: 98%;
+    height: 150px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+}
+
+/* Add flashcard button */
+.add-flashcard-button {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(169, 169, 169, 0.2);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    backdrop-filter: blur(10px);
+    font-family: 'the-seasons', system-ui;
+}
+
+.plus-icon {
+    font-size: 1.5rem;
+}
+
+/* Action buttons */
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cancel-button,
+.save-button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'the-seasons', system-ui;
+}
+
+/* Buttons default color */
+.cancel-button {
+    background: white;
+    color: black;
+    font-family: 'the-seasons', system-ui;
+}
+
+.save-button {
+    background: white;
+    color: black;
+}
+
+    /* Button hover effects */
+    .cancel-button:hover,
+    .save-button:hover {
+        background: #412b16;
+        color: white;
+        font-family: 'the-seasons', system-ui;
+    }
+
+/* Top Button */
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: rgba(169, 169, 169, 0.4);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    display: none;
+    text-align: center;
+    line-height: 60px;
+}
+
+    .top-button:hover {
+        background: rgba(169, 169, 169, 0.6);
+        transform: scale(1.1);
+    }
+
+    .top-button:focus {
+        outline: none;
+    }
+
+.flashcard-side h3 {
+    font-size: 1.2rem;
+    margin: 0;
 }

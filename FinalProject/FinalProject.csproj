@@ -144,6 +144,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FlashcardController.cs" />
     <Compile Include="Controllers\userCONTROLLER.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1050,7 +1051,7 @@
     <Content Include="Views\Shared\_LoginLayout.cshtml" />
     <Content Include="Views\Shared\_Welcome.cshtml" />
     <Content Include="Views\Shared\_Dashboard.cshtml" />
-    <Content Include="Views\Shared\_StudyFlashcards.cshtml" />
+    <Content Include="Views\Shared\_StudyFlashcardsLayout.cshtml" />
     <Content Include="Views\Home\RegistrationPage.cshtml" />
     <Content Include="Views\Home\LogInPage.cshtml" />
     <Content Include="Views\Shared\_ManageFlashcardLayout.cshtml" />

@@ -2,34 +2,219 @@
     Layout = "~/Views/Shared/_ManageFlashcardLayout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard Creator</title>
-    <link rel="stylesheet" href="~/Content/manageflashcards.css">
-    @*the seasons font*@
-    <link rel="stylesheet" href="https://use.typekit.net/ffo6zap.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Create Flashcards</h1>
-        <div id="flashcards-container">
-            <div class="flashcard">
-                <div>
-                    <label for="front1">Front</label>
-                    <textarea id="front1" placeholder="Enter your question here"></textarea>
+<div class="flashcard-container">
+    <h1 class="page-title" contenteditable="true">Create Flashcards</h1>
+
+    <div class="content-wrapper">
+        <aside class="sidebar">
+            <button class="sidebar-button">Dashboard</button>
+            <button class="sidebar-button">Study Spellcards</button>
+        </aside>
+
+        <main class="main-content">
+            <div class="flashcard-section" data-id="0">
+                <div class="flashcard-header" tabindex="0" aria-expanded="true">
+                    <span class="arrow">▼</span>
+                    <h2>Flashcard 1</h2>
+                    <button class="close-button" aria-label="Remove flashcard">×</button>
                 </div>
-                <div>
-                    <label for="back1">Back</label>
-                    <textarea id="back1" placeholder="Enter the answer here"></textarea>
+                <div class="flashcard-content" id="flashcard1">
+                    <div class="flashcard-sides">
+                        <div class="flashcard-side">
+                            <h3>Front</h3>
+                            <textarea class="flashcard-input"></textarea>
+                            <p class="character-count">0/350 characters</p>
+                        </div>
+                        <div class="flashcard-side">
+                            <h3>Back</h3>
+                            <textarea class="flashcard-input"></textarea>
+                            <p class="character-count">0/350 characters</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <button id="add-card">Add a new card</button>
-        <button id="save-cards">Save</button>
+
+            <button class="add-flashcard-button">
+                <span class="plus-icon">+</span>
+                Add a new Spellcard
+            </button>
+
+            <div class="action-buttons">
+                <button class="cancel-button" onclick="handleCancelClick()">Cancel</button>
+                <button class="save-button" onclick="saveFlashcards()">Save</button>
+            </div>
+        </main>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
+</div>
+
+<!-- Top Button -->
+<button class="top-button" aria-label="Scroll to top">↑</button>
+
+<script>
+    let changesMade = false; // Variable to track if changes are made
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const maxCharacters = 350;
+
+        // Event delegation for dynamic content
+        document.querySelector('.main-content').addEventListener('click', (event) => {
+            const target = event.target;
+
+            // Close button functionality
+            if (target.matches('.close-button')) {
+                const section = target.closest('.flashcard-section');
+                section.remove();
+                reNumberFlashcards();
+            }
+
+            // Toggle flashcard content visibility
+            if (target.matches('.flashcard-header, .flashcard-header *')) {
+                const header = target.closest('.flashcard-header');
+                const content = header.nextElementSibling;
+                const arrow = header.querySelector('.arrow');
+                const isHidden = content.style.display === 'none';
+
+                content.style.display = isHidden ? 'block' : 'none';
+                header.setAttribute('aria-expanded', isHidden);
+                arrow.textContent = isHidden ? '▼' : '▶';
+            }
+        });
+
+        // Add flashcard dynamically
+        document.querySelector('.add-flashcard-button').addEventListener('click', () => {
+            const mainContent = document.querySelector('.main-content');
+            const flashcardCount = document.querySelectorAll('.flashcard-section').length + 1;
+
+            const newFlashcard = document.createElement('div');
+            newFlashcard.className = 'flashcard-section';
+            newFlashcard.setAttribute('data-id', '0');
+            newFlashcard.innerHTML = `
+                <div class="flashcard-header" tabindex="0" aria-expanded="true">
+                    <span class="arrow">▼</span>
+                    <h2>Flashcard ${flashcardCount}</h2>
+                    <button class="close-button" aria-label="Remove flashcard">×</button>
+                </div>
+                <div class="flashcard-content" style="display: none;">
+                    <div class="flashcard-sides">
+                        <div class="flashcard-side">
+                            <h3>Front</h3>
+                            <textarea class="flashcard-input"></textarea>
+                            <p class="character-count">0/${maxCharacters} characters</p>
+                        </div>
+                        <div class="flashcard-side">
+                            <h3>Back</h3>
+                            <textarea class="flashcard-input"></textarea>
+                            <p class="character-count">0/${maxCharacters} characters</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            mainContent.insertBefore(newFlashcard, document.querySelector('.add-flashcard-button'));
+        });
+
+        // Character count enforcement
+        document.addEventListener('input', (event) => {
+            if (event.target.matches('.flashcard-input')) {
+                const textarea = event.target;
+                const characterCount = textarea.nextElementSibling;
+                const currentLength = textarea.value.length;
+
+                if (currentLength > maxCharacters) {
+                    textarea.value = textarea.value.slice(0, maxCharacters);
+                }
+
+                characterCount.textContent = `${textarea.value.length}/${maxCharacters} characters`;
+                characterCount.style.color = currentLength > maxCharacters ? 'red' : 'black';
+                changesMade = true; // Mark changes as made when user types
+            }
+        });
+
+        // Re-number flashcards after adding or deleting
+        function reNumberFlashcards() {
+            document.querySelectorAll('.flashcard-header h2').forEach((h2, index) => {
+                h2.textContent = `Flashcard ${index + 1}`;
+            });
+        }
+
+        // Show/Hide top button dynamically
+        const topButton = document.querySelector('.top-button');
+        window.addEventListener('scroll', () => {
+            topButton.style.display = window.scrollY > 200 ? 'block' : 'none';
+        });
+
+        // Scroll to top functionality
+        topButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+
+    // Function to handle the cancel button click
+    function handleCancelClick() {
+        if (changesMade) {
+            // Show a confirmation dialog
+            const confirmCancel = confirm("You have unsaved changes. Do you want to save them?");
+            if (confirmCancel) {
+                // If user confirms, call saveFlashcards
+                saveFlashcards();
+            } else {
+                // If user cancels, just reset the changes flag and do nothing
+                changesMade = false;
+                alert("Changes discarded.");
+            }
+        } else {
+            // If no changes are made, proceed with the cancel action
+            alert("No changes to discard.");
+        }
+    }
+
+    // Save Flashcards Functionality
+    function saveFlashcards() {
+        const flashcardSections = document.querySelectorAll('.flashcard-section');
+        const flashcards = [];
+        let hasExceededLimit = false;
+
+        // Check if any flashcard exceeds the 350-character limit
+        flashcardSections.forEach((section) => {
+            const front = section.querySelector('.flashcard-sides .flashcard-side:nth-child(1) textarea').value;
+            const back = section.querySelector('.flashcard-sides .flashcard-side:nth-child(2) textarea').value;
+
+            // If any card exceeds the limit, prevent saving
+            if (front.length > 350 || back.length > 350) {
+                alert('One or more flashcards exceed the 350 character limit.');
+                hasExceededLimit = true;
+                return; // Stop further execution
+            }
+
+            flashcards.push({
+                flashcardID: section.getAttribute('data-id') || 0,
+                frontCard: front,
+                backCard: back,
+            });
+        });
+
+        if (hasExceededLimit) return; // If limit exceeded, prevent sending the data
+
+        // Send data to the server
+        fetch('/Flashcard/SaveFlashcards', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(flashcards),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            if (data.success) {
+                alert('Flashcards saved successfully!');
+                changesMade = false; // Reset the changes flag after saving
+            } else {
+                alert('Error saving flashcards: ' + data.message);
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while saving flashcards.');
+        });
+    }
+</script>
