@@ -21,9 +21,106 @@
 
 .btn-small {
     margin-top: 7em;
-    font-family: Philosopher;
-    font-weight: 400;
+    background: white;
+    font-weight: 600;
+    width: 18em;
+    height: 2.5em;
+    margin-right: 5em;
+    font-size: 14px;
 }
+
+.add-deck:hover {
+    background: #412b16;
+    color: white;
+}
+
+.deckName {
+    color: white;
+    font-family: the-seasons, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    align-content: center !important;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-title {
+    margin-top: 1em;
+    margin-bottom: 40px;
+    font-family: the-seasons, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.deckInputField {
+    margin-bottom: 2em !important;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40em;
+    height: 20em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-actions {
+    margin-top: 15px;
+}
+
+    .popup-actions .btn {
+
+        margin: 0 10px;
+    }
+
+
+.helper-text {
+    position: relative; /* Ensure it's within the form field */
+    bottom: -1em;
+    left: 1em;
+    font-size: 0.8em; /* Adjust size if needed */
+    color: #d32f2f; /* You can adjust the color as needed */
+    visibility: visible; /* Ensure it's visible */
+    opacity: 1; /* Ensure it has full opacity */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition for visibility */
+}
+
+input:invalid ~ .helper-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+    .input-field label {
+        position: absolute;
+        top: 0.5em; /* Adjust top if needed */
+        font-size: 1em;
+        color: #333;
+    }
+
+    .input-field input {
+        padding-bottom: 1.5em; /* Adds space for helper text */
+    }
+
+
+
 
 /* Second Row */
 .decksContainer {
@@ -34,32 +131,40 @@
 .deckHolder {
     position: relative; /* Set position for the container */
     padding-top: -2em;
-}
+    margin-bottom: 2em;
 
-.deckTitle {
-    position: absolute; /* Position the title absolutely within the container */
-    top: 50%; /* Adjust as needed for perfect positioning */
-    left: 48%;
-    transform: translate(-60%, 80%); /* Center the title horizontally and vertically */
-    z-index: 10; /* Ensure it overlaps on top of the deck image */
-    color: white;
-    font-family: Philosopher;
-    font-weight: 800;
-    font-size: 22px;
-    text-align: center;
 }
 
 
-.deckSubtitle {
-    position: absolute; /* Position the title absolutely within the container */
-    top: 68%; /* Adjust as needed for perfect positioning */
-    left: 47%;
-    transform: translate(-60%, 80%); /* Center the title horizontally and vertically */
-    z-index: 10; /* Ensure it overlaps on top of the deck image */
+/* Flexbox setup for the deck items */
+.deck-item {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center the content if needed */
+    align-items: center; /* Vertically center the image and text */
+    flex-wrap: wrap; /* In case the text is too long, it wraps to the next line */
+    position: relative; /* Enable positioning for z-index */
+}
+
+    /* Image styling */
+    .deck-item img {
+        margin-right: 10px; /* Space between the image and text */
+        position: relative; /* Enable z-index for the image */
+        z-index: 1; /*  image is behind the text */
+    }
+
+    /* Text styling */
+    .deck-item p {
+        margin-top: 10em; /* Remove default margin */
+        position: absolute; /* Position the text over the image */
+        z-index: 2; /* Ensure the text is in front of the image */
+        color: white; /* Optional: Change the color to make it stand out */
+    }
+
+.noDecksMSG { 
+    margin-top: 7em;
+    margin-left: 20em;
+    font-size: 2em;
+    font-weight: 600;
     color: white;
-    font-family: Philosopher;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 16px;
-    text-align: center;
 }

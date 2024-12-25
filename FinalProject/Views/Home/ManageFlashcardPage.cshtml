@@ -51,10 +51,23 @@
 <button class="top-button" aria-label="Scroll to top">↑</button>
 
 <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const path = window.location.pathname;
+        const deckID = path.split('/').pop(); // Get the last part of the URL (the deckID)
+
+        if (deckID) {
+            console.log(`Deck ID: ${deckID}`); // Use this ID to load flashcards for the corresponding deck
+        } else {
+            alert('No deck ID provided.');
+        }
+    });
+
+
     let changesMade = false; // Variable to track if changes are made
 
     document.addEventListener('DOMContentLoaded', () => {
         const maxCharacters = 350;
+
 
         // Event delegation for dynamic content
         document.querySelector('.main-content').addEventListener('click', (event) => {
@@ -168,6 +181,7 @@
         }
     }
 
+
     // Save Flashcards Functionality
     function saveFlashcards() {
         const flashcardSections = document.querySelectorAll('.flashcard-section');
@@ -178,6 +192,7 @@
         flashcardSections.forEach((section) => {
             const front = section.querySelector('.flashcard-sides .flashcard-side:nth-child(1) textarea').value;
             const back = section.querySelector('.flashcard-sides .flashcard-side:nth-child(2) textarea').value;
+              const deckID = '@ViewBag.DeckID'; // Use this in your scripts
 
             // If any card exceeds the limit, prevent saving
             if (front.length > 350 || back.length > 350) {
@@ -190,6 +205,7 @@
                 flashcardID: section.getAttribute('data-id') || 0,
                 frontCard: front,
                 backCard: back,
+                deckID: currentdeckID, // Associate the flashcard with the correct deck
             });
         });
 
@@ -217,4 +233,21 @@
             alert('An error occurred while saving flashcards.');
         });
     }
+
+    function loadFlashcards() {
+        $.ajax({
+            url: `/Home/LoadFlashcards?deckID=${deckID}`,
+            method: 'GET',
+            success: function (data) {
+                console.log("Flashcards:", data);
+                // Populate flashcards on the page
+            },
+            error: function () {
+                console.error("Failed to load flashcards.");
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', loadFlashcards);
+
 </script>

@@ -24,4 +24,23 @@
         });
         return response;
     };
+
+
+    this.saveDeck = function (newDeck) {
+        var response = $http({
+            method: "POST",
+            url: "/Home/AddDeck",
+            data: newDeck
+        });
+        return response;
+    };
+
+
+    this.loadDecks = function () {
+        return $http({
+            method: "GET",
+            url: "/Home/loadDecks"
+        });
+    };
+
 });

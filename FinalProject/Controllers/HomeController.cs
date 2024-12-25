@@ -41,11 +41,12 @@ namespace FinalProject.Controllers
             return View();
         }
 
-        public ActionResult ManageFlashcardPage()
+        public ActionResult ManageFlashcardPage(int deckID)
         {
+            ViewBag.DeckID = deckID; // Pass deckID to the view
             return View();
-        } 
-        
+        }
+
         public ActionResult StudyFlashcardsPage()
         {
             return View();
@@ -73,7 +74,7 @@ namespace FinalProject.Controllers
 
 
         // USERS CRUD
-        public JsonResult AddUser(userCONTROLLER registrationData)
+        public JsonResult AddUser(UserController registrationData)
         {
             using (var db = new FinalProjectContext())
             {
@@ -95,7 +96,7 @@ namespace FinalProject.Controllers
         }
 
 
-        public JsonResult LoginUser(userCONTROLLER loginData)
+        public JsonResult LoginUser(UserController loginData)
         {
             using (var db = new FinalProjectContext())
             {
@@ -116,7 +117,7 @@ namespace FinalProject.Controllers
         }
 
 
-        public void UpdateUser(userCONTROLLER registrationData)
+        public void UpdateUser(UserController registrationData)
         {
             using (var db = new FinalProjectContext())
             {
@@ -162,6 +163,82 @@ namespace FinalProject.Controllers
         //        }
         //    }
         //}
+
+
+
+        // DECK CRUD
+        public JsonResult AddDeck(DeckController newDeck)
+        {
+            using (var db = new FinalProjectContext())
+            {
+                if (string.IsNullOrWhiteSpace(newDeck.deckName))
+                {
+                    return Json(new { success = false, message = "Deck name cannot be empty." });
+                }
+
+                var deckData = new deck_tbl_model
+                {
+                    deckName = newDeck.deckName,
+                    //CreatedAt = DateTime.Now // Add a timestamp if needed
+                };
+
+                db.deck_tbl.Add(deckData);
+                db.SaveChanges();
+
+                return Json(new { success = true });
+            }
+        }
+
+
+        public JsonResult loadDecks()
+        {
+            using (var db = new FinalProjectContext())
+            {
+                var decks = db.deck_tbl.Select(d => new
+                {
+                    d.deckName                
+                }).ToList();
+                return Json(decks, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+
+        //FLASHCARDS
+        //public JsonResult SaveFlashcard(FlashcardController flashcard)
+        //{
+        //    using (var db = new FinalProjectContext())
+        //    {
+        //        var flashcard = new flashcard_tbl_model
+        //        {
+        //            frontCard = flashcard.frontCard,
+        //            backCard = flashcard.backText,
+        //            deckID = flashcard.deckID
+        //        };
+
+        //        db.flashcard_tbl.Add(flashcard);
+        //        db.SaveChanges();
+
+        //        return Json(new { success = true });
+        //    }
+        //}
+
+
+        public JsonResult LoadFlashcards(int deckID)
+        {
+            using (var db = new FinalProjectContext())
+            {
+                var flashcards = db.flashcard_tbl
+                    .Where(fc => fc.deckID == deckID)
+                    .Select(fc => new { fc.flashcardID, fc.frontCard, fc.backCard })
+                    .ToList();
+
+                return Json(flashcards, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+
+
+
 
 
         /* CHART/S */

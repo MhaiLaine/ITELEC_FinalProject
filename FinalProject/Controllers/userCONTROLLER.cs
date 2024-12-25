@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FinalProject.Controllers
 {
-    public class userCONTROLLER
+    public class UserController
     {
         public int userID { get; set; }
         public int deckID { get; set; }

@@ -11,62 +11,64 @@
             <h3 class="dashboardTitle"> Arcane Decks </h3>
         </div>
 
+        <div class="col s1 m1 l1"></div>
 
         <!--Buttons-->
-        <div class="col s2 m2 l2">
-            <a class="waves-effect waves-light btn-small" style="width: 13em; margin-left: 3em;">Add Deck</a>
-        </div>
-
-        <div class="col s2 m2 l2">
-            <a class="waves-effect waves-light btn-small" style="width: 13em;">Study</a>
+        <div class="col s3 m3 l3">
+            <button class="waves-effect waves-light btn-small brown darken-4 add-deck" ng-click="openPopup()">Add Deck</button>
         </div>
 
     </div>
 </div>
 
+<!-- Popup HTML -->
+<div class="popup-overlay" ng-show="isPopupVisible">
+    <div class="popup-content">
+        <h4 class="popup-title">Create New Deck</h4>
+        <!-- Form Start -->
+        <form name="deckForm" class="card-content black-text">
+            <div class="input-field">
+                <input class="deckInputField" type="text" ng-model="deckModel.title" placeholder="Enter deck title"
+                       ng-maxlength="20"
+                       ng-pattern="/^[a-zA-Z0-9\-\'\s]+$/"
+                       name="deckName"
+                       required>
+                <label for="deckName">Deck Title</label>
+
+                <span class="helper-text" style="position: absolute; bottom: -1em; left: 1em;" ng-if="deckForm.deckName.$touched || deckForm.deckName.$dirty">
+                    <span ng-if="deckForm.deckName.$error.required">Deck title is required.</span>
+                    <span ng-if="deckForm.deckName.$error.maxlength">Deck title cannot exceed 20 characters.</span>
+                    <span ng-if="deckForm.deckName.$error.pattern">Deck title can only contain letters, numbers, dashes (-), single quotes, and spaces.</span>
+                </span>
+            </div>
+        </form>
+        <!-- Form End -->
+
+        <div class="popup-actions">
+            <button ng-click="closePopup()" class="btn-flat">Cancel</button>
+            <button ng-click="saveDeck()" class="btn save-btn brown darken-4" ng-disabled="deckForm.$invalid">Save</button>
+        </div>
+    </div>
+</div>
 
 
-
-<!--Second Row-->
-<div class="row">
+<!-- Second Row -->
+<div class="row" ng-init="loadDecks()">
     <div class="decksContainer">
         <div class="col s1 m1 l1 deckHolder"></div>
 
-        <div class="col s2 m2 l2 deckHolder">
-            <img src="~/Content/assets/deck1.png" style="max-width: 14em; height: auto; position: relative; z-index: 1;">
-            <p class="deckTitle"> Deck Title </p>
-            <p class="deckSubtitle"> 6 Cards </p>
+        <div ng-if="decks.length === 0">
+            <p class="noDecksMSG">No decks found.</p>
         </div>
 
-
-        <div class="col s2 m2 l2 deckHolder">
-            <img src="~/Content/assets/deck2.png" style="max-width: 14em; height: auto; z-index:1;">
-            <p class="deckTitle"> Deck Title </p>
-            <p class="deckSubtitle"> 6 Cards </p>
-        </div>
-
-
-        <div class="col s2 m2 l2 deckHolder">
-            <img src="~/Content/assets/deck3.png" style="max-width: 14em; height: auto; z-index:1;">
-            <p class="deckTitle"> Deck Title </p>
-            <p class="deckSubtitle"> 6 Cards </p>
-        </div>
-
-
-        <div class="col s2 m2 l2 deckHolder">
-            <img src="~/Content/assets/deck4.png" style="max-width: 14em; height: auto; z-index:1;">
-            <p class="deckTitle"> Deck Title </p>
-            <p class="deckSubtitle"> 6 Cards </p>
-        </div>
-
-
-        <div class="col s2 m2 l2 deckHolder">
-            <img src="~/Content/assets/deck4.png" style="max-width: 14em; height: auto; z-index:1;">
-            <p class="deckTitle"> Deck Title </p>
-            <p class="deckSubtitle"> 6 Cards </p>
+        <!-- Flexbox container for each deck -->
+        <div ng-if="decks.length > 0" class="col s2 m2 l2 deckHolder" ng-repeat="deck in decks">
+            <a href="/Home/ManageFlashcardPage?deckID={{deck.deckID}}" class="deck-item" ng-click="goToManageFlashcards(deck.deckID)">
+                <img ng-src="~/Content/assets/deck1.png" style="max-width: 14em; height: auto;">
+                <p class="deckName">{{deck.deckName}}</p>
+            </a>
         </div>
 
         <div class="col s1 m1 l1"></div>
     </div>
-
 </div>

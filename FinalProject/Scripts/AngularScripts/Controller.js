@@ -43,8 +43,6 @@
                 });
             };
 
-
-
         $scope.loginFunction = function () {
             var loginData = {
                 username: $scope.username,
@@ -64,8 +62,6 @@
             });
         };
 
-
-
     $scope.cancelFunction = function () {
         $scope.firstName = null;
         $scope.lastName = null;
@@ -76,16 +72,12 @@
     }
 
 
-    // 4.Welcome Page
+    // Welcome Page
     $scope.redirectToDashboard = function () {
         $window.location.href = "/Home/Dashboard1";
     };
 
-
-
-    // 5.
-
-
+    //redirects
     $scope.redirectToManageFlashcards = function () {
         $window.location.href = "/Home/ManageFlashcardPage";
     };
@@ -96,6 +88,69 @@
         $window.location.href = "/Home/StudyFlashcardsPage";
     };
 
+
+    //Dashboard - deck popup
+    // Popup visibility state
+    $scope.isPopupVisible = false;
+
+    // Model for deck title input
+    $scope.deckModel = {
+        title: ''
+    };
+
+    // Function to open popup
+    $scope.openPopup = function () {
+        $scope.isPopupVisible = true;
+        $scope.deckModel.title = ''; // Clear the input
+    };
+
+    // Function to close popup
+    $scope.closePopup = function () {
+        $scope.isPopupVisible = false;
+        $scope.deckModel.title = ''; // Clear the input
+    };
+
+    // Function to save deck
+    $scope.saveDeck = function () {
+        if (!$scope.deckModel.title) {
+            Swal.fire('Error!', 'Deck title cannot be empty.', 'error');
+            return;
+        }
+
+        var newDeck = {
+            deckName: $scope.deckModel.title
+        };
+
+        FinalProjectService.saveDeck(newDeck).then(function (response) {
+            if (response.data.success) {
+                Swal.fire('Deck Saved!', 'Your deck has been added successfully.', 'success');
+                $scope.loadDecks(); // Reload the decks after saving
+            } else {
+                Swal.fire('Error!', response.data.message || 'Failed to save deck.', 'error');
+            }
+        }, function (error) {
+            Swal.fire('Error!', error.message || 'An unexpected error occurred.', 'error');
+        });
+    };
+
+
+    $scope.loadDecks = function () {
+        $http.get("/Home/LoadDecks")
+            .then(function (response) {
+                $scope.decks = response.data;
+            }, function (error) {
+                console.error('Error loading decks:', error);
+            });
+    };
+
+    $scope.goToManageFlashcards = function (deckID) {
+        window.location.href = '/Home/ManageFlashcards/' + deckID;  // Navigate to the correct URL with deckID
+    };
+
+
+    //$scope.goToManageFlashcards = function (deckID) {
+    //    window.location.href = `/home/manageflashcardpage?deckID=${deckID}`;
+    //};
 
 
 
