@@ -20,7 +20,7 @@
     this.loadUsers = function () {
         var response = $http({
             method: "GET",
-            url: "/Home/LoadUsers" // Endpoint to load all users
+            url: "/Home/loadUsers" // Endpoint to load all users
         });
         return response;
     };
@@ -40,6 +40,22 @@
         return $http({
             method: "GET",
             url: "/Home/loadDecks"
+        });
+    };
+
+    this.updateUser = function (updateData) {
+        return $http({
+            method: "POST",
+            url: "/Home/updateUser",
+            data: updateData
+        });
+     };
+
+    this.deleteUser = function (userID) {
+        return $http({
+            method: "POST",
+            url: "/Home/deleteUser",
+            data: { userID: userID }
         });
     };
 

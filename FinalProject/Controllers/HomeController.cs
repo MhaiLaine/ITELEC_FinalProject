@@ -135,18 +135,29 @@ namespace FinalProject.Controllers
             }
         }
 
-        public JsonResult loadUsers()
+        public ActionResult loadUsers()
         {
             using (var db = new FinalProjectContext())
             {
-                var userData = (from uData in db.user_tbl
-                                join dData in db.deck_tbl on uData.userID equals dData.deckID
-                                join fData in db.flashcard_tbl on uData.userID equals fData.flashcardID
-                                select new { uData, dData, fData }).ToList();
+                var userData = db.user_tbl
+                    .Select(u => new
+                    {
+                        u.userID,
+                        u.deckID,
+                        u.firstName,
+                        u.lastName,
+                        u.username,
+                        u.userPhone,
+                        u.userEmail,
+                        u.userCreated,
+                        u.userUpdated
+                    }).ToList();
 
                 return Json(userData, JsonRequestBehavior.AllowGet);
             }
         }
+
+
 
         //public ActionResult Login(user_tbl_model model)
         //{
@@ -237,8 +248,65 @@ namespace FinalProject.Controllers
         }
 
 
+        //UserUpdate
+        [HttpPost]
+        public JsonResult updateUser(user_tbl_model userData)
+        {
+            try
+            {
+                using (var db = new FinalProjectContext())
+                {
 
+                    var currentUsername = Session["username"]?.ToString();
+                    var user = db.user_tbl.FirstOrDefault(u => u.username == currentUsername);
 
+                    if (user != null)
+                    {
+                        user.userID = userData.userID;
+                        user.deckID = userData.deckID;
+                        user.firstName = userData.firstName;
+                        user.lastName = userData.lastName;
+                        user.username = userData.username;
+                        user.userPhone = userData.userPhone;
+                        user.userEmail = userData.userEmail;
+                        user.userCreated = DateTime.Now;
+                        user.userUpdated = DateTime.Now;
+                        db.SaveChanges();
+                        return Json(new { Success = true });
+                    }
+                    return Json(new { Success = false, Message = "User not found" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { Success = false, Message = ex.Message });
+            }
+        }
+
+        //UserDelete
+        public JsonResult deleteUser(int userID)
+        {
+            try
+            {
+                using (var db = new FinalProjectContext())
+                {
+                    var user = db.user_tbl.FirstOrDefault(u => u.userID == userID);
+
+                    if (user != null)
+                    {
+                        db.user_tbl.Remove(user);
+                        db.SaveChanges();
+                        return Json(new { Success = true });
+                    }
+
+                    return Json(new { Success = false, Message = "User not found" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { Success = false, Message = ex.Message });
+            }
+        }
 
 
         /* CHART/S */

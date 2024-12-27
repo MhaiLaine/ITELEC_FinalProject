@@ -25,15 +25,6 @@
                 </div>
             </a>
 
-            <a href="/Home/AdminDecks" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
-                <div class="row valign-wrapper">
-                    <div class="col s3 m3 l3" style="padding-top: 8px;">
-                        <img src="~/Content/assets/folder.png" width="30">
-                    </div>
-                    <div class="col s9 m9 l9">Decks</div>
-                </div>
-            </a>
-
             <a href="/Home/AdminFlashcards" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
                 <div class="row valign-wrapper">
                     <div class="col s3 m3 l3" style="padding-top: 8px;">
@@ -47,16 +38,92 @@
 
 
     <!-- Main content area on the right -->
-    <div class="col s10 m10 l10 main-content">
-        <!-- Your main content goes here -->
-        <h1> User Accounts</h1>
+    <div class="col s10 m10 l10 main-content" ng-controller="userController">
+        <h1>User Accounts</h1>
 
-        <div class="col s2 m2 l2"></div>
+        <div class="col s1 m1 l1"></div>
 
         <div class="col s10 m10 l10">
-            <p>CONTENT HERE</p>
+
+            @*<div class="col s12 m12 l12">
+            <table class="striped centered">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Deck ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Created At</th>
+                        <th>Updated At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="loginData in userData">
+                        <td>{{loginData.userID}}</td>
+                        <td>{{loginData.deckID}}</td>
+                        <td>{{loginData.firstName}}</td>
+                        <td>{{loginData.lastName}}</td>
+                        <td>{{loginData.username}}</td>
+                        <td>{{loginData.userPhone}}</td>
+                        <td>{{loginData.userEmail}}</td>
+                        <td>{{loginData.userCreated | date:'medium'}}</td>
+                        <td>{{loginData.userUpdated | date:'medium'}}</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>*@
+
+
+            <table style="border-collapse: separate; border-spacing: 0; width: 100%; border-radius: 10px; overflow: hidden; background-color: transparent; border: 1px solid white;">
+                <tr style="background-color: white;">
+                    <th style="padding: 10px; text-align: center; color: black; border: 1px solid white;">userID</th>
+                    <th style="padding: 10px; text-align: center; color: black; border: 1px solid white;">deckID</th>
+                    <th style="padding: 10px; text-align: center; color: black; border: 1px solid white;">username</th>
+                    <th style="padding: 10px; text-align: center; color: black; border: 1px solid white;">userEmail</th>
+                    <th style="padding: 10px; text-align: center; color: black; border: 1px solid white;">Actions</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">1</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">1</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">Good</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">Glinda@gmail.com</td>
+                    <td style="padding: 10px; text-align: center; color: white; border: 1px solid white;">
+                        <a class="waves-effect waves-light btn-small blue" ng-click="updateUser()">Update</a>
+                        <a class="waves-effect waves-light btn-small red" ng-click="deleteUser()">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">2</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">2</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">Test</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">Sample@gmail.com</td>
+                    <td style="padding: 10px; text-align: center; color: white; border: 1px solid white;">
+                        <a class="waves-effect waves-light btn-small blue" ng-click="updateUser()">Update</a>
+                        <a class="waves-effect waves-light btn-small red" ng-click="deleteUser()">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">3</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">3</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">mhailaine</td>
+                    <td style="padding: 10px; color: white; border: 1px solid white;">m@gmail.com</td>
+                    <td style="padding: 10px; text-align: center; color: white; border: 1px solid white;">
+                        <a class="waves-effect waves-light btn-small blue" ng-click="updateUser()">Update</a>
+                        <a class="waves-effect waves-light btn-small red" ng-click="deleteUser()">Delete</a>
+                    </td>
+                </tr>
+            </table>
+
+
+
         </div>
 
-        <div class="col s2 m2 l2"></div>
+        <div class="col s1 m1 l1"></div>
     </div>
 </div>
+
+

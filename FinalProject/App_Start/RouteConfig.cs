@@ -21,7 +21,7 @@ namespace FinalProject
 
             routes.MapRoute(
                 name: "ManageFlashcards",
-                url: "/Home/ManageFlashcardPage/{deckID}",
+                url: "Home/ManageFlashcardPage/{deckID}",
             defaults: new { controller = "Flashcard", action = "ManageFlashcardPage" }
             );
 

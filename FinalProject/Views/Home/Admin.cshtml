@@ -27,14 +27,6 @@
                         </div>
                     </a>
 
-                    <a href="/Home/AdminDecks" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
-                        <div class="row valign-wrapper">
-                            <div class="col s3 m3 l3" style="padding-top: 8px;">
-                                <img src="~/Content/assets/folder.png" width="30">
-                            </div>
-                            <div class="col s9 m9 l9">Decks</div>
-                        </div>
-                    </a>
 
                      <a href="/Home/AdminFlashcards" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
                         <div class="row valign-wrapper">
@@ -53,51 +45,28 @@
             <!-- Your main content goes here -->
             <h1> Dashboard</h1>
 
-                <div class="col s2 m2 l2"></div>
+                <div class="col s1 m1 l1"></div>
 
-                    <div class="col s10 m10 l10">
-                        <p>Here is your main content area.</p>
+                <div class="col s10 m10 l10">
+                    <canvas id="bar"
+                            class="chart chart-bar"
+                            style="max-height: auto; max-width: 70em;"
+                            chart-data="data"
+                            chart-labels="labels"
+                            chart-series="series">
+                    </canvas>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <p style="color: white; font-size: 16px; font-weight: bold;">
+                            Figure 1.0: Bar Chart showing the number of user accounts created over the past 5 months.
+                        </p>
                     </div>
 
-                <div class="col s2 m2 l2"></div>
+                </div>
+
+                <div class="col s1 m1 l1"></div>
         </div>
    </div>
 
 
-
-
-    @*<div class="col s6 m6 l6">
-            <table id="myTable" class="display">
-                <thead>
-                    <tr>
-                        <th>User ID</th>
-                        <th>Deck ID</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
-                        <th>Phone Number</th>
-                        <th>Email</th>
-                        <th>Password</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="registrationData in userData">
-                        <td>{{registrationData.uData.userID}}</td>
-
-                        <td>{{registrationData.uData.firstName}}</td>
-                        <td>{{registrationData.uData.lastName}}</td>
-                        <td>{{registrationData.uData.userName}}</td>
-                        <td>{{registrationData.uData.userPhone}}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>*@
-
-    @*charts*@
-    @*<div class="col s6 m6 l6">
-            <canvas id="bar" class="chart chart-bar"
-                    chart-data="data" chart-labels="labels" chart-options="options">
-            </canvas>
-        </div>*@
 
