@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\finalproject\\scripts\\angularscripts\\service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "flashcard_tbl_model.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
               "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_model.cs",
@@ -58,18 +58,17 @@
               "RelativeToolTip": "FinalProject\\Models\\flashcard_tbl_model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T20:25:46.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T20:25:46.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "FinalProject\\App_Start\\RouteConfig.cs",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "FinalProject\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T13:43:49.961Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
               "ViewState": "AgIAADEAAAAAAAAAAAAgwEQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-24T12:23:38.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:23:38.724Z"
             },
             {
               "$type": "Document",
@@ -97,12 +95,11 @@
               "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
               "ViewState": "AgIAAHgAAAAAAAAAAAAIwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-23T19:03:16.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:03:16.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ManageFlashcardPage.cshtml",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
@@ -110,12 +107,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
               "ViewState": "AgIAAKIAAAAAAAAAAAAmwLkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-24T11:25:47.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:25:47.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FlashcardController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\FlashcardController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\FlashcardController.cs",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "FinalProject\\Controllers\\FlashcardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T03:21:51.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T03:21:51.905Z"
             },
             {
               "$type": "Document",
@@ -136,31 +131,30 @@
               "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Service.js",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-23T21:06:02.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T21:06:02.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAjwCsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwCsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T20:50:37.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Controller.js",
               "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
               "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAgwJEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-23T15:43:08.604Z",
               "EditorCaption": ""
