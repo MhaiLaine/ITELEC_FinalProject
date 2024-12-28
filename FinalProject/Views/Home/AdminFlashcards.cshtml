@@ -2,4 +2,160 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<div class="row">
+    <div class="col s2 m2 l2 card brown darken-4 sidebar">
+        <div class="white-text">
+            <!-- Sidebar -->
+            <a href="/Home/Admin" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/dashboard.png" width="30">
+                    </div>
+                    <div class="col s9 m9 l9">Dashboard</div>
+                </div>
+            </a>
+            <p>MANAGE</p>
+            <a href="/Home/AdminUserAcc" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/user.png" width="30">
+                    </div>
+                    <div class="col s9 m9 l9">User Accounts</div>
+                </div>
+            </a>
+            <a href="/Home/AdminFlashcards" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/card.png" width="30">
+                    </div>
+                    <div class="col s9 m9 l9">Flashcards</div>
+                </div>
+            </a>
+        </div>
+    </div>
 
+    <!-- Main Content -->
+    <div class="col s10 m10 l10 main-content" ng-controller="flashcardController">
+        <h1>Manage Flashcards</h1>
+        <div>
+            <button id="addFlashcardBtn" class="btn waves-effect waves-light">Add Flashcard</button>
+
+            <div style="max-height: 550px; overflow-y: auto;">
+                <table class="striped">
+                    <thead>
+                        <tr>
+                            <th>Flashcard ID</th>
+                            <th>Front</th>
+                            <th>Back</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="flashcardTableBody">
+                        <!-- Rows dynamically populated via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Add/Edit Flashcard Modal -->
+            <div id="flashcardModal" class="modal">
+                <div class="modal-content">
+                    <h4 id="modalTitle">Add Flashcard</h4>
+                    <form id="flashcardForm">
+                        <input type="hidden" id="flashcardID" />
+                        <div class="input-field">
+                            <input type="text" id="frontCard" maxlength="350" required />
+                            <label for="frontCard">Front</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="backCard" maxlength="350" required />
+                            <label for="backCard">Back</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="saveFlashcardBtn" class="modal-close btn">Save</button>
+                    <button class="modal-close btn-flat">Cancel</button>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const flashcardTableBody = document.getElementById('flashcardTableBody');
+                    const flashcardModal = document.getElementById('flashcardModal');
+                    const modalTitle = document.getElementById('modalTitle');
+                    const flashcardForm = document.getElementById('flashcardForm');
+
+                    // Load flashcards
+                    function loadFlashcards() {
+                        fetch('/Flashcard/GetAllFlashcards')
+                            .then(response => response.json())
+                            .then(data => {
+                                flashcardTableBody.innerHTML = '';
+                                data.forEach(flashcard => {
+                                    const row = `
+                                    <tr>
+                                        <td>${flashcard.flashcardID}</td>
+                                        <td>${flashcard.frontCard}</td>
+                                        <td>${flashcard.backCard}</td>
+                                        <td>
+                                            <button class="btn edit-btn" data-id="${flashcard.flashcardID}">Edit</button>
+                                            <button class="btn red delete-btn" data-id="${flashcard.flashcardID}">Delete</button>
+                                        </td>
+                                    </tr>
+                                `;
+                                    flashcardTableBody.insertAdjacentHTML('beforeend', row);
+                                });
+                            });
+                    }
+
+                    // Save flashcard
+                    document.getElementById('saveFlashcardBtn').addEventListener('click', () => {
+                        const flashcardID = document.getElementById('flashcardID').value;
+                        const frontCard = document.getElementById('frontCard').value;
+                        const backCard = document.getElementById('backCard').value;
+
+                        fetch('/Flashcard/SaveFlashcard', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ flashcardID, frontCard, backCard }),
+                        }).then(() => loadFlashcards());
+                    });
+
+                    // Delete flashcard
+                    flashcardTableBody.addEventListener('click', (e) => {
+                        if (e.target.classList.contains('delete-btn')) {
+                            const flashcardID = e.target.dataset.id;
+                            fetch(`/Flashcard/DeleteFlashcard/${flashcardID}`, { method: 'DELETE' })
+                                .then(() => loadFlashcards());
+                        }
+                    });
+
+                    // Open Add/Edit Modal
+                    document.getElementById('addFlashcardBtn').addEventListener('click', () => {
+                        flashcardForm.reset();
+                        modalTitle.textContent = 'Add Flashcard';
+                        M.Modal.getInstance(flashcardModal).open();
+                    });
+
+                    flashcardTableBody.addEventListener('click', (e) => {
+                        if (e.target.classList.contains('edit-btn')) {
+                            const flashcardID = e.target.dataset.id;
+                            fetch(`/Flashcard/GetFlashcard/${flashcardID}`)
+                                .then(response => response.json())
+                                .then(data => {
+                                    document.getElementById('flashcardID').value = data.flashcardID;
+                                    document.getElementById('frontCard').value = data.frontCard;
+                                    document.getElementById('backCard').value = data.backCard;
+                                    modalTitle.textContent = 'Edit Flashcard';
+                                    M.Modal.getInstance(flashcardModal).open();
+                                });
+                        }
+                    });
+
+                    // Initialize modal
+                    M.Modal.init(flashcardModal);
+                    loadFlashcards();
+                });
+
+
+            </script>

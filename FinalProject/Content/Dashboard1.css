@@ -82,7 +82,6 @@
 }
 
     .popup-actions .btn {
-
         margin: 0 10px;
     }
 
@@ -132,7 +131,6 @@ input:invalid ~ .helper-text {
     position: relative; /* Set position for the container */
     padding-top: -2em;
     margin-bottom: 2em;
-
 }
 
 
@@ -161,7 +159,7 @@ input:invalid ~ .helper-text {
         color: white; /* Optional: Change the color to make it stand out */
     }
 
-.noDecksMSG { 
+.noDecksMSG {
     margin-top: 7em;
     margin-left: 20em;
     font-size: 2em;

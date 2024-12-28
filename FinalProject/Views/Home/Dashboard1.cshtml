@@ -42,6 +42,7 @@
                 </span>
             </div>
         </form>
+
         <!-- Form End -->
 
         <div class="popup-actions">
@@ -63,7 +64,7 @@
 
         <!-- Flexbox container for each deck -->
         <div ng-if="decks.length > 0" class="col s2 m2 l2 deckHolder" ng-repeat="deck in decks">
-            <a href="/Home/ManageFlashcardPage?deckID={{deck.deckID}}" class="deck-item" ng-click="goToManageFlashcards(deck.deckID)">
+            <a href="/Home/ManageFlashcardPage?deckID={{deck.deckID}}" class="deck-item">
                 <img ng-src="~/Content/assets/deck1.png" style="max-width: 14em; height: auto;">
                 <p class="deckName">{{deck.deckName}}</p>
             </a>
@@ -72,3 +73,4 @@
         <div class="col s1 m1 l1"></div>
     </div>
 </div>
+

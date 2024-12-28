@@ -6,51 +6,55 @@
     <h1 class="page-title" contenteditable="true">Create Flashcards</h1>
 
     <div class="content-wrapper">
-        <aside class="sidebar">
-            <button class="sidebar-button">Dashboard</button>
-            <button class="sidebar-button">Study Spellcards</button>
-        </aside>
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <a href="@Url.Action("Dashboard1", "Home")" class="sidebar-button">Dashboard</a>
 
-        <main class="main-content">
-            <div class="flashcard-section" data-id="0">
-                <div class="flashcard-header" tabindex="0" aria-expanded="true">
-                    <span class="arrow">▼</span>
-                    <h2>Flashcard 1</h2>
-                    <button class="close-button" aria-label="Remove flashcard">×</button>
-                </div>
-                <div class="flashcard-content" id="flashcard1">
-                    <div class="flashcard-sides">
-                        <div class="flashcard-side">
-                            <h3>Front</h3>
-                            <textarea class="flashcard-input"></textarea>
-                            <p class="character-count">0/350 characters</p>
-                        </div>
-                        <div class="flashcard-side">
-                            <h3>Back</h3>
-                            <textarea class="flashcard-input"></textarea>
-                            <p class="character-count">0/350 characters</p>
+                <a href="@Url.Action("StudyFlashcardsPage", "Home")" class="sidebar-button">Study Spellcards</a>
+
+            </aside>
+
+
+            <main class="main-content">
+                <div class="flashcard-section" data-id="0">
+                    <div class="flashcard-header" tabindex="0" aria-expanded="true">
+                        <span class="arrow">▼</span>
+                        <h2>Flashcard 1</h2>
+                        <button class="close-button" aria-label="Remove flashcard">×</button>
+                    </div>
+                    <div class="flashcard-content" id="flashcard1">
+                        <div class="flashcard-sides">
+                            <div class="flashcard-side">
+                                <h3>Front</h3>
+                                <textarea class="flashcard-input"></textarea>
+                                <p class="character-count">0/350 characters</p>
+                            </div>
+                            <div class="flashcard-side">
+                                <h3>Back</h3>
+                                <textarea class="flashcard-input"></textarea>
+                                <p class="character-count">0/350 characters</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <button class="add-flashcard-button">
-                <span class="plus-icon">+</span>
-                Add a new Spellcard
-            </button>
+                <button class="add-flashcard-button">
+                    <span class="plus-icon">+</span>
+                    Add a new Spellcard
+                </button>
 
-            <div class="action-buttons">
-                <button class="cancel-button" onclick="handleCancelClick()">Cancel</button>
-                <button class="save-button" onclick="saveFlashcards()">Save</button>
-            </div>
-        </main>
+                <div class="action-buttons">
+                    <button class="cancel-button" onclick="handleCancelClick()">Cancel</button>
+                    <button class="save-button" onclick="saveFlashcards()">Save</button>
+                </div>
+            </main>
+        </div>
     </div>
-</div>
 
-<!-- Top Button -->
-<button class="top-button" aria-label="Scroll to top">↑</button>
+    <!-- Top Button -->
+    <button class="top-button" aria-label="Scroll to top">↑</button>
 
-<script>
+    <script>
     document.addEventListener('DOMContentLoaded', () => {
         const path = window.location.pathname;
         const deckID = path.split('/').pop(); // Get the last part of the URL (the deckID)
@@ -184,59 +188,60 @@
 
     // Save Flashcards Functionality
     function saveFlashcards() {
-        const flashcardSections = document.querySelectorAll('.flashcard-section');
-        const flashcards = [];
-        let hasExceededLimit = false;
+    const flashcardSections = document.querySelectorAll('.flashcard-section');
+    const flashcards = [];
+    let hasExceededLimit = false;
+    const deckID = '@ViewBag.DeckID';  // This will correctly pass the deck ID from the server-side
 
-        // Check if any flashcard exceeds the 350-character limit
-        flashcardSections.forEach((section) => {
-            const front = section.querySelector('.flashcard-sides .flashcard-side:nth-child(1) textarea').value;
-            const back = section.querySelector('.flashcard-sides .flashcard-side:nth-child(2) textarea').value;
-              const deckID = '@ViewBag.DeckID'; // Use this in your scripts
+    // Check if any flashcard exceeds the 350-character limit
+    flashcardSections.forEach((section) => {
+        const front = section.querySelector('.flashcard-sides .flashcard-side:nth-child(1) textarea').value;
+        const back = section.querySelector('.flashcard-sides .flashcard-side:nth-child(2) textarea').value;
 
-            // If any card exceeds the limit, prevent saving
-            if (front.length > 350 || back.length > 350) {
-                alert('One or more flashcards exceed the 350 character limit.');
-                hasExceededLimit = true;
-                return; // Stop further execution
-            }
+        // If any card exceeds the limit, prevent saving
+        if (front.length > 350 || back.length > 350) {
+            alert('One or more flashcards exceed the 350 character limit.');
+            hasExceededLimit = true;
+            return; // Stop further execution
+        }
 
-            flashcards.push({
-                flashcardID: section.getAttribute('data-id') || 0,
-                frontCard: front,
-                backCard: back,
-                deckID: currentdeckID, // Associate the flashcard with the correct deck
-            });
+        flashcards.push({
+            flashcardID: section.getAttribute('data-id') || 0, // Handle new/old flashcard IDs
+            frontCard: front,
+            backCard: back,
+            deckID: deckID, // Use the deckID from the server
         });
+    });
 
-        if (hasExceededLimit) return; // If limit exceeded, prevent sending the data
+    if (hasExceededLimit) return; // If limit exceeded, prevent sending the data
 
-        // Send data to the server
-        fetch('/Flashcard/SaveFlashcards', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(flashcards),
-        })
-        .then((response) => response.json())
-        .then((data) => {
-            if (data.success) {
-                alert('Flashcards saved successfully!');
-                changesMade = false; // Reset the changes flag after saving
-            } else {
-                alert('Error saving flashcards: ' + data.message);
-            }
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-            alert('An error occurred while saving flashcards.');
-        });
-    }
+    // Send data to the server
+    fetch('/Flashcard/SaveFlashcards', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(flashcards),
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        if (data.success) {
+            alert('Flashcards saved successfully!');
+            changesMade = false; // Reset the changes flag after saving
+        } else {
+            alert('Error saving flashcards: ' + data.message);
+        }
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert('An error occurred while saving flashcards.');
+    });
+}
+
 
     function loadFlashcards() {
         $.ajax({
-            url: `/Home/LoadFlashcards?deckID=${deckID}`,
+            url: `/Controllers/LoadFlashcards?deckID=${deckID}`,
             method: 'GET',
             success: function (data) {
                 console.log("Flashcards:", data);
@@ -250,4 +255,4 @@
 
     document.addEventListener('DOMContentLoaded', loadFlashcards);
 
-</script>
+    </script>

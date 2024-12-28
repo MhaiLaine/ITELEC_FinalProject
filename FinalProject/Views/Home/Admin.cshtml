@@ -2,71 +2,70 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-    <!-- LEFT - Navbar -->
+<!-- LEFT - Navbar -->
 
-    <div class="row">
-        <div class="col s2 m2 l2 card brown darken-4 sidebar">
-            <!-- Sidebar content (e.g., navbar links) -->
-            <div class="white-text">
-                <a href="/Home/Admin" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
-                    <div class="row valign-wrapper">
-                        <div class="col s3 m3 l3" style="padding-top: 8px;">
-                            <img src="~/Content/assets/dashboard.png" width="30">
-                        </div>
-                        <div class="col s9 m9 l9">Dashboard</div>
+<div class="row">
+    <div class="col s2 m2 l2 card brown darken-4 sidebar">
+        <!-- Sidebar content (e.g., navbar links) -->
+        <div class="white-text">
+            <a href="/Home/Admin" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/dashboard.png" width="30">
                     </div>
-                </a>
-
-                <p>MANAGE</p>
-                    <a href="/Home/AdminUserAcc" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
-                        <div class="row valign-wrapper">
-                            <div class="col s3 m3 l3" style="padding-top: 8px;">
-                                <img src="~/Content/assets/user.png" width="30">
-                            </div>
-                            <div class="col s9 m9 l9">User Accounts</div>
-                        </div>
-                    </a>
-
-
-                     <a href="/Home/AdminFlashcards" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
-                        <div class="row valign-wrapper">
-                            <div class="col s3 m3 l3" style="padding-top: 8px;">
-                                <img src="~/Content/assets/card.png" width="30">
-                            </div>
-                            <div class="col s9 m9 l9">Flashcards</div>
-                        </div>
-                    </a>
-            </div>
-        </div>
-
-
-        <!-- Main content area on the right -->
-        <div class="col s10 m10 l10 main-content">
-            <!-- Your main content goes here -->
-            <h1> Dashboard</h1>
-
-                <div class="col s1 m1 l1"></div>
-
-                <div class="col s10 m10 l10">
-                    <canvas id="bar"
-                            class="chart chart-bar"
-                            style="max-height: auto; max-width: 70em;"
-                            chart-data="data"
-                            chart-labels="labels"
-                            chart-series="series">
-                    </canvas>
-
-                    <div style="text-align: center; margin-top: 20px;">
-                        <p style="color: white; font-size: 16px; font-weight: bold;">
-                            Figure 1.0: Bar Chart showing the number of user accounts created over the past 5 months.
-                        </p>
-                    </div>
-
+                    <div class="col s9 m9 l9">Dashboard</div>
                 </div>
+            </a>
 
-                <div class="col s1 m1 l1"></div>
+            <p>MANAGE</p>
+            <a href="/Home/AdminUserAcc" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/user.png" width="30">
+                    </div>
+                    <div class="col s9 m9 l9">User Accounts</div>
+                </div>
+            </a>
+
+
+            <a href="/Home/AdminFlashcards" class="nav-item waves-effect waves-light btn-flat white-text" style="height: 4em;">
+                <div class="row valign-wrapper">
+                    <div class="col s3 m3 l3" style="padding-top: 8px;">
+                        <img src="~/Content/assets/card.png" width="30">
+                    </div>
+                    <div class="col s9 m9 l9">Flashcards</div>
+                </div>
+            </a>
         </div>
-   </div>
+    </div>
 
+
+    <!-- Main content area on the right -->
+    <div class="col s10 m10 l10 main-content">
+        <!-- Your main content goes here -->
+        <h1> Dashboard</h1>
+
+        <div class="col s1 m1 l1"></div>
+
+        <div class="col s10 m10 l10">
+            <canvas id="bar"
+                    class="chart chart-bar"
+                    style="max-height: auto; max-width: 70em;"
+                    chart-data="data"
+                    chart-labels="labels"
+                    chart-series="series">
+            </canvas>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <p style="color: white; font-size: 16px; font-weight: bold;">
+                    Figure 1.0: Bar Chart showing the number of user accounts created over the past 5 months.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="col s1 m1 l1"></div>
+    </div>
+</div>
 
 

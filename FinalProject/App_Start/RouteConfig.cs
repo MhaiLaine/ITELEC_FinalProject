@@ -19,11 +19,11 @@ namespace FinalProject
                 defaults: new { controller = "Home", action = "MainMenu", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
+           /* routes.MapRoute(
                 name: "ManageFlashcards",
                 url: "Home/ManageFlashcardPage/{deckID}",
             defaults: new { controller = "Flashcard", action = "ManageFlashcardPage" }
-            );
+            ); */
 
 
         }
