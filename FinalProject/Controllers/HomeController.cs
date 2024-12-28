@@ -117,6 +117,7 @@ namespace FinalProject.Controllers
         }
 
 
+
         public void UpdateUser(UserController registrationData)
         {
             using (var db = new FinalProjectContext())
@@ -148,7 +149,7 @@ namespace FinalProject.Controllers
             }
         }
 
-        //public ActionResult Login(user_tbl_model model)
+        //public ActionResult loginFunction(user_tbl_model model)
         //{
         //    using (var db = new FinalProjectContext()) // Ensure db is declared and initialized
         //    {

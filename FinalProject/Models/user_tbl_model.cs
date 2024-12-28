@@ -15,8 +15,8 @@ namespace FinalProject.Models
         public int userPhone { get; set; }
         public string userEmail { get; set; }
         public string userPassword { get; set; }
-        public DateTime userCreated { get; set; }
-        public DateTime userUpdated { get; set; }
+        //public DateTime userCreated { get; set; }
+        //public DateTime userUpdated { get; set; }
 
 
     }

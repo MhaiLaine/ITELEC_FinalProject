@@ -1,194 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ASP_Projects\\ITELEC_FinalProject\\",
+  "WorkspaceRootPath": "C:\\ASP_Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\mainmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\itelec_finalproject\\finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\adminflashcards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\user_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\models\\user_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\user_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\flashcard_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\flashcard_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Scripts\\AngularScripts\\Service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\mainmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\mainmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_registrationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_registrationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_studyflashcardslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_studyflashcardslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_manageflashcardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_mainmenulayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_mainmenulayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_dashboard1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\welcomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\welcomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\studyflashcardspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\studyflashcardspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\manageflashcardpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\adminuseracc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\admindecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\scripts\\angularscripts\\service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\scripts\\angularscripts\\module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\scripts\\angularscripts\\module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\scripts\\angularscripts\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|c:\\asp_projects\\finalproject\\finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\registrationpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\finalprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\finalprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\flashcard_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\deck_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\deck_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\FlashcardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Controllers\\FlashcardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\deck_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\deck_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\DeckController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Controllers\\DeckController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\admin_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\admin_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\MainMenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\models\\admin_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\models\\admin_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\ITELEC_FinalProject\\finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\WelcomePage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\AdminUserAcc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Views\\Home\\AdminDecks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\studyflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\manageflashcards.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Dashboard1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Content\\Admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\deck_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\FinalProjectContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\FinalProjectContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\deck_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\admin_tbl_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\Models\\admin_tbl_map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B62E3-39EE-4EF3-9DF3-C6872F10CE00}|FinalProject\\FinalProject.csproj|solutionrelative:FinalProject\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -198,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,575 +138,393 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminFlashcards.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminFlashcards.cshtml",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAUwHgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:12:38.597Z",
+              "DocumentIndex": 1,
+              "Title": "user_tbl_model.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_model.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
+              "RelativeToolTip": "FinalProject\\Models\\user_tbl_model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:30:13.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user_tbl_map.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_map.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
+              "RelativeToolTip": "FinalProject\\Models\\user_tbl_map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:30:14.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dashboard1.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Dashboard1.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Dashboard1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:12:39.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistrationPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:54:07.564Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAqwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:40:40.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Registration.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Registration.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Registration.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Registration.css",
-              "RelativeToolTip": "FinalProject\\Content\\Registration.css",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwHAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:49:55.686Z",
+              "Title": "Service.js",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js",
+              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Service.js",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js",
+              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-28T13:46:09.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "user_tbl_map.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_map.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_map.cs",
-              "RelativeToolTip": "FinalProject\\Models\\user_tbl_map.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:41.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\MainMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:53:08.942Z",
+              "DocumentIndex": 4,
+              "Title": "Module.js",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Module.js",
+              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Module.js",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Scripts\\AngularScripts\\Module.js",
+              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Module.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-28T15:43:58.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "user_tbl_model.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\user_tbl_model.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\user_tbl_model.cs",
-              "RelativeToolTip": "FinalProject\\Models\\user_tbl_model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "flashcard_tbl_model.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_model.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
+              "RelativeToolTip": "FinalProject\\Models\\flashcard_tbl_model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:49.828Z"
+              "WhenOpened": "2024-12-28T13:43:35.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\RegistrationPage.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T15:47:29.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "flashcard_tbl_model.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_model.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_model.cs",
-              "RelativeToolTip": "FinalProject\\Models\\flashcard_tbl_model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "FlashcardController.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\FlashcardController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\FlashcardController.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\FlashcardController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\FlashcardController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAwwKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:35.454Z"
+              "WhenOpened": "2024-12-28T13:29:38.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "flashcard_tbl_map.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_map.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\flashcard_tbl_map.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\flashcard_tbl_map.cs",
-              "RelativeToolTip": "FinalProject\\Models\\flashcard_tbl_map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "DeckController.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\DeckController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\DeckController.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Controllers\\DeckController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\DeckController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:31.234Z"
+              "WhenOpened": "2024-12-28T13:35:58.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\userCONTROLLER.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\userCONTROLLER.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\userCONTROLLER.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\userCONTROLLER.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:42:07.184Z"
+              "Title": "MainMenu.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\MainMenu.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\MainMenu.css",
+              "RelativeToolTip": "FinalProject\\Content\\MainMenu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:49:37.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAowAoBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:40:40.219Z"
+              "Title": "_ManageFlashcardLayout.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T14:03:25.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FlashcardController.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\FlashcardController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\FlashcardController.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\FlashcardController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\FlashcardController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwKwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:29:38.659Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T14:02:55.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "DeckController.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\DeckController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\DeckController.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Controllers\\DeckController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\DeckController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:35:58.179Z"
+              "Title": "WelcomePage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\WelcomePage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\WelcomePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T14:01:34.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "LogInPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\LogInPage.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StudyFlashcardsPage.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAIBJwBMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:52:33.221Z"
+              "WhenOpened": "2024-12-28T13:54:27.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MainMenu.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\MainMenu.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\MainMenu.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\MainMenu.css",
-              "RelativeToolTip": "FinalProject\\Content\\MainMenu.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:49:37.628Z"
+              "Title": "AdminUserAcc.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAABRwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T13:15:35.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "_RegistrationLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_RegistrationLayout.cshtml",
+              "Title": "AdminDecks.cshtml",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:03:24.172Z",
+              "WhenOpened": "2024-12-28T13:12:32.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "_Welcome.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Welcome.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Welcome.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Welcome.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Welcome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:04:00.624Z"
+              "Title": "studyflashcards.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\studyflashcards.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\studyflashcards.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\studyflashcards.css",
+              "RelativeToolTip": "FinalProject\\Content\\studyflashcards.css",
+              "ViewState": "AgIAAKsAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:50:54.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "_StudyFlashcardsLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_StudyFlashcardsLayout.cshtml",
+              "Title": "materialize.min.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\materialize.min.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\materialize.min.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\materialize.min.css",
+              "RelativeToolTip": "FinalProject\\Content\\materialize.min.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:03:50.636Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:50:45.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "_ManageFlashcardLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_ManageFlashcardLayout.cshtml",
+              "Title": "Welcome.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Welcome.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Welcome.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Welcome.css",
+              "RelativeToolTip": "FinalProject\\Content\\Welcome.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:03:25.854Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:50:19.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "_MainMenuLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_MainMenuLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:03:16.468Z",
+              "Title": "manageflashcards.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\manageflashcards.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\manageflashcards.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\manageflashcards.css",
+              "RelativeToolTip": "FinalProject\\Content\\manageflashcards.css",
+              "ViewState": "AgIAAMMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:49:46.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_LoginLayout.cshtml",
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Site.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Site.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Site.css",
+              "RelativeToolTip": "FinalProject\\Content\\Site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:03:07.004Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:50:10.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:02:55.91Z"
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Login.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Login.css",
+              "RelativeToolTip": "FinalProject\\Content\\Login.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:49:32.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "_Dashboard1.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Dashboard1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:02:41.36Z",
+              "Title": "Dashboard1.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard1.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Dashboard1.css",
+              "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:47:52.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:01:58.312Z"
+              "Title": "Admin.css",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Admin.css",
+              "RelativeDocumentMoniker": "FinalProject\\Content\\Admin.css",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Content\\Admin.css",
+              "RelativeToolTip": "FinalProject\\Content\\Admin.css",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:47:09.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "WelcomePage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\WelcomePage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\WelcomePage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\WelcomePage.cshtml",
+              "Title": "deck_tbl_model.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_model.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
+              "RelativeToolTip": "FinalProject\\Models\\deck_tbl_model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T14:01:34.264Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:43:13.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "StudyFlashcardsPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\StudyFlashcardsPage.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:54:27.85Z"
+              "Title": "FinalProjectContext.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\FinalProjectContext.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
+              "RelativeToolTip": "FinalProject\\Models\\FinalProjectContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:42:31.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "ManageFlashcardPage.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\ManageFlashcardPage.cshtml",
-              "ViewState": "AgIAANoAAAAAAAAAAAAUwAIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:15:56.558Z"
+              "Title": "deck_tbl_map.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_map.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
+              "RelativeToolTip": "FinalProject\\Models\\deck_tbl_map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:43:05.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "AdminUserAcc.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminUserAcc.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:15:35.676Z"
+              "Title": "admin_tbl_model.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_model.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
+              "RelativeToolTip": "FinalProject\\Models\\admin_tbl_model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:42:58.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "AdminDecks.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\AdminDecks.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\AdminDecks.cshtml",
+              "Title": "admin_tbl_map.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_map.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
+              "RelativeToolTip": "FinalProject\\Models\\admin_tbl_map.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T13:12:32.544Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:42:16.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Admin.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Admin.cshtml",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Views\\Home\\Admin.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Admin.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T19:11:33.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "studyflashcards.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\studyflashcards.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\studyflashcards.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\studyflashcards.css",
-              "RelativeToolTip": "FinalProject\\Content\\studyflashcards.css",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:50:54.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "materialize.min.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\materialize.min.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\materialize.min.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\materialize.min.css",
-              "RelativeToolTip": "FinalProject\\Content\\materialize.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:50:45.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Welcome.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Welcome.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Welcome.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Welcome.css",
-              "RelativeToolTip": "FinalProject\\Content\\Welcome.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:50:19.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "manageflashcards.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\manageflashcards.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\manageflashcards.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\manageflashcards.css",
-              "RelativeToolTip": "FinalProject\\Content\\manageflashcards.css",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:49:46.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Site.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Site.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Site.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Site.css",
-              "RelativeToolTip": "FinalProject\\Content\\Site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:50:10.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Login.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Login.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Login.css",
-              "RelativeToolTip": "FinalProject\\Content\\Login.css",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:49:32.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Dashboard1.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Dashboard1.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Dashboard1.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Dashboard1.css",
-              "RelativeToolTip": "FinalProject\\Content\\Dashboard1.css",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:47:52.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Admin.css",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Admin.css",
-              "RelativeDocumentMoniker": "FinalProject\\Content\\Admin.css",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Content\\Admin.css",
-              "RelativeToolTip": "FinalProject\\Content\\Admin.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T13:47:09.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Service.js",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js",
-              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Service.js",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Service.js",
-              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Service.js",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-28T13:46:09.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Module.js",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Module.js",
-              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Module.js",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Module.js",
-              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Module.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-28T13:46:01.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Controller.js",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeDocumentMoniker": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "RelativeToolTip": "FinalProject\\Scripts\\AngularScripts\\Controller.js",
-              "ViewState": "AgIAALQAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-28T13:44:15.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "deck_tbl_model.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_model.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_model.cs",
-              "RelativeToolTip": "FinalProject\\Models\\deck_tbl_model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:13.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FinalProjectContext.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\FinalProjectContext.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\FinalProjectContext.cs",
-              "RelativeToolTip": "FinalProject\\Models\\FinalProjectContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:42:31.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "deck_tbl_map.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\deck_tbl_map.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\deck_tbl_map.cs",
-              "RelativeToolTip": "FinalProject\\Models\\deck_tbl_map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:43:05.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "admin_tbl_model.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_model.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_model.cs",
-              "RelativeToolTip": "FinalProject\\Models\\admin_tbl_model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:42:58.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "admin_tbl_map.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Models\\admin_tbl_map.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\Models\\admin_tbl_map.cs",
-              "RelativeToolTip": "FinalProject\\Models\\admin_tbl_map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:42:16.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "FinalProject\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\ASP_Projects\\ITELEC_FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\ASP_Projects\\FinalProject\\FinalProject\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "FinalProject\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T13:36:24.073Z"
+              "WhenOpened": "2024-12-28T13:36:24.073Z",
+              "EditorCaption": ""
             }
           ]
         }
